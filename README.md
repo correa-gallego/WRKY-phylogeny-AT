@@ -3,11 +3,13 @@
 
 Análisis filogenético de ML de la superfamilia WRKY en *Arabidopsis thaliana* (71), *Oryza sativa* (39) y *Solanum lycopersicum* (40) — 150 secuencias en total.
 
+## Licencia
+MIT License — ver [`LICENSE`](./LICENSE)
 ---
 
 ## Notebook
 
-📓 [`WRKY_Phylogeny_Reporte_Final.ipynb`](./WRKY_Phylogeny_Reporte_Final.ipynb) — reporte completo con métodos, resultados, figuras y discusión.
+[`WRKY_Phylogeny_Reporte_Final.ipynb`](./WRKY_Phylogeny_Reporte_Final.ipynb) — reporte completo con métodos, resultados, figuras y discusión.
 
 > GitHub renderiza el notebook directamente al hacer clic en el archivo.
 
