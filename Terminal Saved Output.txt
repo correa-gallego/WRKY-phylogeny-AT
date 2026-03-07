@@ -1,0 +1,4809 @@
+Last login: Thu Mar  5 22:42:28 on ttys000
+scorrea@Sebastians-MacBook-Air ~ % cd D
+cd: no such file or directory: D
+scorrea@Sebastians-MacBook-Air ~ % l
+zsh: command not found: l
+scorrea@Sebastians-MacBook-Air ~ % la
+zsh: command not found: la
+scorrea@Sebastians-MacBook-Air ~ % ls
+Applications			Geneious 9.1 Data		Music				QuPath
+Desktop				Google Drive			OneDrive			rpro.log
+Documents			Library				OneDrive - purdue.edu		Zotero
+Downloads			miniforge3			OneDrive - Universidad EAFIT
+drawing.svg			Miniforge3-MacOSX-arm64.sh	Pictures
+Geneious 2026.0 Data		Movies				Public
+scorrea@Sebastians-MacBook-Air ~ % cd D
+cd: no such file or directory: D
+scorrea@Sebastians-MacBook-Air ~ % cd Documents 
+scorrea@Sebastians-MacBook-Air Documents % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+scorrea@Sebastians-MacBook-Air Documents % ls
+Bioinformatics_Course			files					proteomics_AT
+commands_linix				final_proteomics			screenshots
+Correa 2026				linux_cmd.txt				Untitled65.tiff
+Crameri					Movie on 3-3-26 at 3.38 PM.mov
+ECSO Lab				New project
+scorrea@Sebastians-MacBook-Air Documents % cd proteomics_AT 
+scorrea@Sebastians-MacBook-Air proteomics_AT % ls
+00_setup.sh		02_extract_ids.sh	04_blast.sh		06_phylo.sh
+01_download.sh		03_seqtk.sh		05_megafasta.sh
+scorrea@Sebastians-MacBook-Air proteomics_AT % bash 01_download.sh
+bash 02_extract_ids.sh
+bash 03_seqtk.sh
+bash 04_blast.sh
+bash 05_megafasta.sh
+bash 06_phylo.sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 11.4M  100 11.4M    0     0  7357k      0  0:00:01  0:00:01 --:--:-- 7361k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 14.6M  100 14.6M    0     0  9343k      0  0:00:01  0:00:01 --:--:-- 9340k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 8142k    0 63855    0     0  39366      0  0:03:31  0:00:01  0:03:30 39343
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100 8142k  100 8142k    0     0  3030k      0  0:00:02  0:00:02 --:--:-- 3030k
+Athaliana_protein.fa: 27416 sequences
+Osativa_protein.fa: 39049 sequences
+Slycopersicum_protein.fa: 34663 sequences
+Loci input:        72
+IDs matched:       71
+
+Unmatched loci (not found in proteome):
+  MISSING: At5g45270
+Note: missing loci may be absent from this proteome version. Proceeding with       71 sequences.
+Sequences extracted: 71
+
+
+Building a new DB, current time: 03/05/2026 22:45:33
+New DB name:   /Users/scorrea/Documents/proteomics_AT/03_blast/Osativa_db
+New DB title:  /Users/scorrea/Documents/proteomics_AT/00_raw/Osativa_protein.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 39049 sequences in 0.241933 seconds.
+
+
+
+Warning: [blastp] Examining 5 or more matches is recommended
+
+Osativa hits:       75
+
+
+Building a new DB, current time: 03/05/2026 22:45:39
+New DB name:   /Users/scorrea/Documents/proteomics_AT/03_blast/Slycopersicum_db
+New DB title:  /Users/scorrea/Documents/proteomics_AT/00_raw/Slycopersicum_protein.fa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 34663 sequences in 0.282248 seconds.
+
+
+
+Warning: [blastp] Examining 5 or more matches is recommended
+
+Slycopersicum hits:       75
+Osativa: 39 sequences
+Slycopersicum: 40 sequences
+Megafasta total: 150
+  AT: 71
+  OS: 39
+  SL: 40
+OS = darwin
+The number of physical cores =  10
+nthread = 10
+nthreadpair = 10
+nthreadtb = 10
+ppenalty_ex = 0
+stacksize: 8176 kb
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+
+    1 / 150 (thread    0)
+  101 / 150 (thread    1)
+done.
+
+Constructing a UPGMA tree (efffree=0) ... 
+
+    0 / 150
+   10 / 150
+   20 / 150
+   30 / 150
+   40 / 150
+   50 / 150
+   60 / 150
+   70 / 150
+   80 / 150
+   90 / 150
+  100 / 150
+  110 / 150
+  120 / 150
+  130 / 150
+  140 / 150
+done.
+
+Progressive alignment 1/2... 
+
+STEP     1 / 149 (thread    0) f
+STEP     2 / 149 (thread    1) f
+STEP     4 / 149 (thread    4) f
+STEP     3 / 149 (thread    2) f
+STEP     5 / 149 (thread    3) f
+STEP     6 / 149 (thread    5) f
+STEP     7 / 149 (thread    6) f
+STEP     9 / 149 (thread    9) f
+STEP    10 / 149 (thread    7) f
+STEP    11 / 149 (thread    4) f
+STEP    12 / 149 (thread    5) f
+STEP    13 / 149 (thread    4) f
+STEP    14 / 149 (thread    5) f
+STEP    15 / 149 (thread    1) f
+STEP    16 / 149 (thread    3) f
+STEP    17 / 149 (thread    3) f
+STEP    18 / 149 (thread    5) f
+STEP    19 / 149 (thread    1) f
+STEP    20 / 149 (thread    0) f
+STEP     8 / 149 (thread    8) f
+STEP    21 / 149 (thread    4) f
+STEP    22 / 149 (thread    7) f
+STEP    24 / 149 (thread    3) f
+STEP    25 / 149 (thread    1) f
+STEP    26 / 149 (thread    0) f
+STEP    28 / 149 (thread    0) f
+STEP    29 / 149 (thread    7) f
+STEP    30 / 149 (thread    0) f
+STEP    31 / 149 (thread    4) f
+STEP    23 / 149 (thread    5) f
+STEP    34 / 149 (thread    9) f
+STEP    32 / 149 (thread    2) f
+STEP    37 / 149 (thread    4) f
+STEP    38 / 149 (thread    0) f
+STEP    39 / 149 (thread    3) f
+STEP    27 / 149 (thread    1) f
+STEP    40 / 149 (thread    9) f
+STEP    36 / 149 (thread    7) f
+STEP    41 / 149 (thread    5) f
+STEP    42 / 149 (thread    9) f
+STEP    43 / 149 (thread    0) f
+STEP    33 / 149 (thread    6) f
+STEP    45 / 149 (thread    5) f
+STEP    44 / 149 (thread    9) f
+STEP    49 / 149 (thread    5) f
+STEP    47 / 149 (thread    0) f
+STEP    50 / 149 (thread    3) f
+STEP    52 / 149 (thread    0) f
+STEP    54 / 149 (thread    9) f
+STEP    46 / 149 (thread    7) f
+STEP    55 / 149 (thread    6) f
+STEP    35 / 149 (thread    8) f
+STEP    56 / 149 (thread    3) f
+STEP    57 / 149 (thread    6) f
+STEP    58 / 149 (thread    0) f
+STEP    60 / 149 (thread    1) f
+STEP    61 / 149 (thread    3) f
+STEP    59 / 149 (thread    6) f
+STEP    62 / 149 (thread    9) f
+STEP    63 / 149 (thread    1) f
+STEP    64 / 149 (thread    7) f
+STEP    66 / 149 (thread    0) f
+STEP    67 / 149 (thread    0) f
+STEP    51 / 149 (thread    2) f
+STEP    48 / 149 (thread    4) f
+STEP    71 / 149 (thread    6) f
+STEP    72 / 149 (thread    0) f
+STEP    73 / 149 (thread    0) f
+STEP    65 / 149 (thread    7) f
+STEP    74 / 149 (thread    2) f
+STEP    77 / 149 (thread    4) f
+STEP    78 / 149 (thread    2) f
+STEP    79 / 149 (thread    4) f
+STEP    53 / 149 (thread    5) f
+STEP    81 / 149 (thread    1) f
+STEP    76 / 149 (thread    0) f
+STEP    83 / 149 (thread    1) f
+STEP    69 / 149 (thread    9) f
+STEP    85 / 149 (thread    5) f
+STEP    86 / 149 (thread    1) f
+STEP    87 / 149 (thread    0) f
+STEP    68 / 149 (thread    8) f
+STEP    89 / 149 (thread    5) f
+STEP    90 / 149 (thread    1) f
+STEP    88 / 149 (thread    0) f
+STEP    92 / 149 (thread    5) f
+STEP    93 / 149 (thread    5) f
+STEP    94 / 149 (thread    1) f
+STEP    75 / 149 (thread    6) f
+STEP    91 / 149 (thread    9) f
+STEP    97 / 149 (thread    5) f
+STEP    95 / 149 (thread    0) f
+STEP    99 / 149 (thread    8) f
+STEP   100 / 149 (thread    5) f
+STEP    70 / 149 (thread    3) f
+STEP   102 / 149 (thread    8) f
+STEP    80 / 149 (thread    2) f
+STEP   103 / 149 (thread    6) f
+STEP   107 / 149 (thread    3) f
+STEP    82 / 149 (thread    4) f
+STEP    84 / 149 (thread    7) f
+STEP    96 / 149 (thread    1) f
+STEP    98 / 149 (thread    9) f
+STEP   101 / 149 (thread    5) f
+STEP   112 / 149 (thread    1) f
+STEP   113 / 149 (thread    1) f
+STEP   104 / 149 (thread    0) f
+STEP   105 / 149 (thread    8) f
+STEP   117 / 149 (thread    8) f
+STEP   108 / 149 (thread    2) f
+STEP   119 / 149 (thread    0) f
+STEP   106 / 149 (thread    6) f
+STEP   110 / 149 (thread    3) f
+STEP   122 / 149 (thread    2) f
+STEP   109 / 149 (thread    4) f
+STEP   114 / 149 (thread    1) f
+STEP   111 / 149 (thread    7) f
+STEP   125 / 149 (thread    4) f
+STEP   116 / 149 (thread    5) f
+STEP   128 / 149 (thread    1) f
+STEP   115 / 149 (thread    9) f
+STEP   129 / 149 (thread    9) f
+STEP   130 / 149 (thread    5) f
+STEP   118 / 149 (thread    8) f
+STEP   132 / 149 (thread    1) f
+STEP   120 / 149 (thread    0) f
+STEP   121 / 149 (thread    6) f
+STEP   123 / 149 (thread    2) f
+STEP   124 / 149 (thread    3) f
+STEP   126 / 149 (thread    4) f
+STEP   127 / 149 (thread    7) f
+Reallocating..done. *alloclen = 4906
+
+STEP   131 / 149 (thread    9) f
+STEP   133 / 149 (thread    1) f
+STEP   143 / 149 (thread    1) f
+STEP   134 / 149 (thread    8) f
+STEP   145 / 149 (thread    8) f
+STEP   135 / 149 (thread    5) f
+STEP   136 / 149 (thread    0) f
+STEP   137 / 149 (thread    6) f
+STEP   138 / 149 (thread    2) f
+STEP   139 / 149 (thread    3) f
+STEP   140 / 149 (thread    4) f
+STEP   141 / 149 (thread    7) f
+STEP   142 / 149 (thread    9) f
+STEP   144 / 149 (thread    1) f
+STEP   146 / 149 (thread    8) f
+STEP   147 / 149 (thread    5) f
+STEP   148 / 149 (thread    0) f
+Reallocating..done. *alloclen = 6393
+
+STEP   149 / 149 (thread    6) f
+done.
+
+Making a distance matrix from msa.. 
+
+    0 / 150 (thread    0)
+  100 / 150 (thread    3)
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+
+    0 / 150
+   10 / 150
+   20 / 150
+   30 / 150
+   40 / 150
+   50 / 150
+   60 / 150
+   70 / 150
+   80 / 150
+   90 / 150
+  100 / 150
+  110 / 150
+  120 / 150
+  130 / 150
+  140 / 150
+done.
+
+Progressive alignment 2/2... 
+
+STEP     1 / 149 (thread    0) f
+STEP     3 / 149 (thread    2) f
+STEP     2 / 149 (thread    1) f
+STEP     4 / 149 (thread    3) f
+STEP     6 / 149 (thread    4) f
+STEP     7 / 149 (thread    2) f
+STEP     8 / 149 (thread    1) f
+STEP     9 / 149 (thread    0) f
+STEP    10 / 149 (thread    0) f
+STEP    12 / 149 (thread    0) f
+STEP    14 / 149 (thread    6) f
+STEP    15 / 149 (thread    0) f
+STEP    16 / 149 (thread    1) f
+STEP    17 / 149 (thread    7) f
+STEP    18 / 149 (thread    8) f
+STEP    19 / 149 (thread    0) f
+STEP    20 / 149 (thread    1) f
+STEP    21 / 149 (thread    0) f
+STEP    22 / 149 (thread    1) f
+STEP    23 / 149 (thread    9) f
+STEP    25 / 149 (thread    0) f
+STEP     5 / 149 (thread    3) f
+STEP    26 / 149 (thread    0) f
+STEP    27 / 149 (thread    4) f
+STEP    11 / 149 (thread    2) f
+STEP    28 / 149 (thread    6) f
+STEP    29 / 149 (thread    3) f
+STEP    30 / 149 (thread    0) f
+STEP    32 / 149 (thread    6) f
+STEP    33 / 149 (thread    2) f
+STEP    34 / 149 (thread    3) f
+STEP    35 / 149 (thread    7) f
+STEP    36 / 149 (thread    6) f
+STEP    37 / 149 (thread    0) f
+STEP    39 / 149 (thread    2) f
+STEP    40 / 149 (thread    0) f
+STEP    13 / 149 (thread    5) f
+STEP    41 / 149 (thread    2) f
+STEP    42 / 149 (thread    7) f
+STEP    43 / 149 (thread    3) f
+STEP    24 / 149 (thread    1) f
+STEP    38 / 149 (thread    6) f
+STEP    46 / 149 (thread    1) f
+STEP    47 / 149 (thread    2) f
+STEP    48 / 149 (thread    7) f
+STEP    49 / 149 (thread    2) f
+STEP    51 / 149 (thread    7) f
+STEP    44 / 149 (thread    0) f
+STEP    53 / 149 (thread    5) f
+STEP    54 / 149 (thread    9) f
+STEP    55 / 149 (thread    5) f
+STEP    56 / 149 (thread    9) f
+STEP    57 / 149 (thread    7) f
+STEP    58 / 149 (thread    9) f
+STEP    59 / 149 (thread    9) f
+STEP    60 / 149 (thread    5) f
+STEP    31 / 149 (thread    8) f
+STEP    63 / 149 (thread    6) f
+STEP    50 / 149 (thread    1) f
+STEP    64 / 149 (thread    8) f
+STEP    65 / 149 (thread    6) f
+STEP    66 / 149 (thread    9) f
+STEP    67 / 149 (thread    6) f
+STEP    68 / 149 (thread    6) f
+STEP    69 / 149 (thread    9) f
+STEP    70 / 149 (thread    0) f
+STEP    71 / 149 (thread    8) f
+STEP    52 / 149 (thread    2) f
+STEP    62 / 149 (thread    7) f
+STEP    72 / 149 (thread    1) f
+STEP    73 / 149 (thread    6) f
+STEP    75 / 149 (thread    2) f
+STEP    76 / 149 (thread    4) f
+STEP    77 / 149 (thread    2) f
+STEP    78 / 149 (thread    4) f
+STEP    80 / 149 (thread    0) f
+STEP    81 / 149 (thread    1) f
+STEP    82 / 149 (thread    2) f
+STEP    45 / 149 (thread    3) f
+STEP    83 / 149 (thread    1) f
+STEP    84 / 149 (thread    2) f
+STEP    86 / 149 (thread    0) f
+STEP    88 / 149 (thread    7) f
+STEP    85 / 149 (thread    8) f
+STEP    91 / 149 (thread    3) f
+STEP    61 / 149 (thread    5) f
+STEP    92 / 149 (thread    2) f
+STEP    87 / 149 (thread    1) f
+STEP    95 / 149 (thread    2) f
+STEP    96 / 149 (thread    5) f
+STEP    97 / 149 (thread    1) f
+STEP    74 / 149 (thread    6) f
+STEP    90 / 149 (thread    7) f
+STEP    98 / 149 (thread    5) f
+STEP   100 / 149 (thread    1) f
+STEP   101 / 149 (thread    5) f
+STEP    93 / 149 (thread    8) f
+STEP   104 / 149 (thread    1) f
+STEP   105 / 149 (thread    5) f
+STEP    99 / 149 (thread    2) f
+STEP   107 / 149 (thread    6) f
+STEP    79 / 149 (thread    4) f
+STEP   108 / 149 (thread    1) f
+STEP   110 / 149 (thread    6) f
+STEP   111 / 149 (thread    2) f
+STEP   102 / 149 (thread    7) f
+STEP   113 / 149 (thread    2) f
+STEP   109 / 149 (thread    5) f
+STEP    89 / 149 (thread    0) f
+STEP   116 / 149 (thread    2) f
+STEP   114 / 149 (thread    1) f
+STEP   118 / 149 (thread    2) f
+STEP   117 / 149 (thread    5) f
+STEP    94 / 149 (thread    3) f
+STEP   122 / 149 (thread    2) f
+STEP   119 / 149 (thread    1) f
+STEP   103 / 149 (thread    9) f
+STEP   123 / 149 (thread    7) f
+STEP   106 / 149 (thread    8) f
+STEP   112 / 149 (thread    6) f
+STEP   124 / 149 (thread    2) f
+STEP   130 / 149 (thread    2) f
+STEP   115 / 149 (thread    4) f
+STEP   132 / 149 (thread    2) f
+STEP   133 / 149 (thread    4) f
+STEP   120 / 149 (thread    0) f
+STEP   134 / 149 (thread    4) f
+STEP   136 / 149 (thread    4) f
+STEP   137 / 149 (thread    4) f
+STEP   121 / 149 (thread    5) f
+STEP   138 / 149 (thread    0) f
+STEP   139 / 149 (thread    0) f
+STEP   140 / 149 (thread    0) f
+STEP   125 / 149 (thread    3) f
+STEP   143 / 149 (thread    4) f
+STEP   126 / 149 (thread    1) f
+STEP   127 / 149 (thread    9) f
+STEP   128 / 149 (thread    8) f
+STEP   129 / 149 (thread    7) f
+STEP   131 / 149 (thread    6) f
+STEP   135 / 149 (thread    2) f
+STEP   141 / 149 (thread    5) f
+STEP   142 / 149 (thread    0) f
+Reallocating..done. *alloclen = 5730
+
+STEP   144 / 149 (thread    4) f
+STEP   145 / 149 (thread    3) f
+STEP   146 / 149 (thread    1) f
+STEP   147 / 149 (thread    9) f
+STEP   148 / 149 (thread    8) f
+STEP   149 / 149 (thread    7) f
+done.
+
+disttbfast (aa) Version 7.526
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+10 thread(s)
+
+distout=h
+rescale = 1
+
+    0 / 150 (thread    0)
+  100 / 150 (thread    9)dndpre (aa) Version 7.526
+alg=X, model=BLOSUM62, 1.53, +0.12, -0.00, noshift, amax=0.0
+10 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 8
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 2
+sueff_global = 0.100000
+nadd = 2
+rescale = 1
+
+
+    0 / 150
+   10 / 150
+   20 / 150
+   30 / 150
+   40 / 150
+   50 / 150
+   60 / 150
+   70 / 150
+   80 / 150
+   90 / 150
+  100 / 150
+  110 / 150
+  120 / 150
+  130 / 150
+  140 / 150
+Segment   1/  2    1-1841
+001-0000-1 (thread    8) identical     
+
+001-0001-1 (thread    7) identical     
+001-0001-1 (thread    7) worse      
+
+001-0002-0 (thread    5) identical     
+001-0002-0 (thread    5) better     
+
+001-0003-0 (thread    4) identical     
+001-0003-0 (thread    4) worse      
+
+001-0004-0 (thread    5) identical     
+001-0004-0 (thread    5) worse      
+
+001-0005-1 (thread    3) identical     
+001-0005-1 (thread    3) worse      
+
+001-0006-0 (thread    5) identical     
+001-0006-0 (thread    5) worse      
+
+001-0007-1 (thread    1) identical     
+001-0007-1 (thread    1) worse      
+
+001-0008-1 (thread    3) identical     
+001-0008-1 (thread    3) worse      
+
+001-0009-1 (thread    7) identical     
+
+001-0010-1 (thread    4) identical     
+001-0010-1 (thread    4) worse      
+
+001-0011-0 (thread    3) identical     
+001-0011-0 (thread    3) worse      
+
+001-0012-1 (thread    7) identical     
+001-0012-1 (thread    7) worse      
+
+001-0013-0 (thread    4) identical     
+001-0013-0 (thread    4) worse      
+
+001-0014-0 (thread    8) identical     
+001-0014-0 (thread    8) worse      
+
+001-0015-0 (thread    6) identical     
+
+001-0016-1 (thread    3) identical     
+001-0016-1 (thread    3) worse      
+
+001-0017-0 (thread    5) identical     
+001-0017-0 (thread    5) worse      
+
+001-0018-1 (thread    1) identical     
+001-0018-1 (thread    1) worse      
+
+001-0019-0 (thread    8) identical     
+001-0019-0 (thread    8) worse      
+
+001-0020-1 (thread    4) identical     
+001-0020-1 (thread    4) worse      
+
+001-0021-1 (thread    5) identical     
+001-0021-1 (thread    5) worse      
+
+001-0022-0 (thread    3) identical     
+001-0022-0 (thread    3) worse      
+
+001-0023-0 (thread    2) identical     
+001-0023-0 (thread    2) worse      
+
+001-0024-0 (thread    7) identical     
+001-0024-0 (thread    7) worse      
+
+001-0025-1 (thread    6) identical     
+001-0025-1 (thread    6) worse      
+
+001-0026-0 (thread    3) identical     
+001-0026-0 (thread    3) worse      
+
+001-0027-0 (thread    7) identical     
+001-0027-0 (thread    7) worse      
+
+001-0028-1 (thread    2) identical     
+001-0028-1 (thread    8) identical     
+001-0028-1 (thread    8) worse      
+
+001-0029-0 (thread    4) identical     
+001-0029-0 (thread    4) worse      
+
+001-0030-1 (thread    5) identical     
+001-0030-1 (thread    5) worse      
+
+001-0031-0 (thread    3) identical     
+001-0031-0 (thread    3) worse      
+
+001-0032-1 (thread    2) worse      
+
+001-0032-0 (thread    1) identical     
+001-0032-0 (thread    1) worse      
+
+001-0034-1 (thread    4) identical     
+001-0034-1 (thread    4) worse      
+
+001-0035-0 (thread    8) identical     
+001-0035-0 (thread    8) worse      
+
+001-0036-1 (thread    7) identical     
+001-0036-1 (thread    7) worse      
+
+001-0037-1 (thread    6) identical     
+001-0037-1 (thread    3) identical     
+001-0037-1 (thread    6) worse      
+
+001-0038-0 (thread    1) identical     
+001-0038-0 (thread    1) worse      
+
+001-0039-0 (thread    4) identical     
+001-0039-0 (thread    4) better     
+
+001-0040-1 (thread    3) worse      
+
+001-0041-0 (thread    5) identical     
+001-0041-0 (thread    5) worse      
+
+001-0042-1 (thread    6) identical     
+001-0042-1 (thread    6) worse      
+
+001-0043-1 (thread    8) identical     
+001-0043-1 (thread    8) better     
+
+001-0044-1 (thread    4) identical     
+001-0044-1 (thread    4) worse      
+
+001-0044-0 (thread    6) identical     
+001-0044-0 (thread    6) worse      
+
+001-0045-1 (thread    8) identical     
+001-0045-1 (thread    8) worse      
+
+001-0047-0 (thread    7) identical     
+001-0047-0 (thread    7) worse      
+
+001-0048-1 (thread    5) identical     
+001-0048-1 (thread    5) better     
+
+001-0049-1 (thread    7) identical     
+001-0049-1 (thread    7) better     
+
+001-0050-1 (thread    7) identical     
+
+001-0051-0 (thread    5) identical     
+001-0051-0 (thread    5) worse      
+
+001-0052-1 (thread    8) identical     
+001-0052-1 (thread    8) worse      
+
+001-0053-0 (thread    3) identical     
+001-0053-0 (thread    6) identical     
+001-0053-0 (thread    6) worse      
+
+001-0054-1 (thread    2) identical     
+001-0054-1 (thread    2) worse      
+
+001-0055-0 (thread    3) worse      
+
+001-0056-1 (thread    5) identical     
+001-0056-1 (thread    5) worse      
+
+001-0057-0 (thread    7) identical     
+001-0057-0 (thread    7) worse      
+
+001-0058-0 (thread    2) identical     
+001-0058-0 (thread    2) worse      
+
+001-0059-1 (thread    3) identical     
+001-0059-1 (thread    6) identical     
+001-0059-1 (thread    3) worse      
+
+001-0060-1 (thread    6) worse      
+
+001-0061-0 (thread    1) identical     
+001-0061-0 (thread    4) identical     
+001-0061-0 (thread    1) better     
+
+001-0062-0 (thread    4) worse      
+
+001-0063-0 (thread    8) identical     
+001-0063-0 (thread    8) worse      
+
+001-0064-1 (thread    3) identical     
+001-0064-1 (thread    3) worse      
+
+001-0065-0 (thread    5) identical     
+001-0065-0 (thread    5) worse      
+
+001-0066-0 (thread    3) identical     
+001-0066-1 (thread    7) identical     
+001-0066-0 (thread    3) worse      
+
+001-0067-1 (thread    7) worse      
+
+001-0068-1 (thread    5) identical     
+001-0068-1 (thread    5) worse      
+
+001-0069-0 (thread    4) identical     
+001-0069-1 (thread    1) identical     
+001-0069-1 (thread    1) worse      
+
+001-0070-0 (thread    4) worse      
+
+001-0071-0 (thread    2) identical     
+001-0071-1 (thread    8) identical     
+001-0071-1 (thread    8) worse      
+
+001-0072-0 (thread    2) worse      
+
+001-0073-0 (thread    3) identical     
+001-0073-0 (thread    3) worse      
+
+001-0074-1 (thread    8) identical     
+001-0074-1 (thread    8) worse      
+
+001-0075-1 (thread    1) identical     
+001-0075-0 (thread    2) identical     
+001-0075-0 (thread    2) worse      
+
+001-0076-1 (thread    1) worse      
+
+001-0077-1 (thread    3) identical     
+001-0077-1 (thread    3) worse      
+
+001-0078-0 (thread    5) identical     
+001-0078-0 (thread    5) worse      
+
+001-0079-1 (thread    7) identical     
+001-0079-1 (thread    7) worse      
+
+001-0080-0 (thread    4) identical     
+
+001-0081-1 (thread    3) identical     
+001-0081-0 (thread    8) identical     
+001-0081-1 (thread    3) worse      
+
+001-0082-0 (thread    6) identical     
+001-0082-0 (thread    6) worse      
+
+001-0083-1 (thread    7) identical     
+001-0083-1 (thread    7) worse      
+
+001-0084-0 (thread    4) identical     
+001-0084-0 (thread    4) worse      
+
+001-0085-0 (thread    1) identical     
+001-0085-0 (thread    1) worse      
+
+001-0086-0 (thread    8) worse      
+
+001-0087-0 (thread    6) identical     
+001-0087-0 (thread    6) worse      
+
+001-0087-0 (thread    5) identical     
+001-0087-0 (thread    5) better     
+
+001-0089-1 (thread    1) identical     
+001-0089-1 (thread    5) identical     
+001-0089-1 (thread    5) worse      
+
+001-0089-0 (thread    8) identical     
+001-0089-0 (thread    8) worse      
+
+001-0089-1 (thread    1) better     
+
+001-0092-1 (thread    1) identical     
+001-0092-1 (thread    1) worse      
+
+001-0093-0 (thread    6) identical     
+001-0093-0 (thread    6) worse      
+
+001-0094-1 (thread    8) identical     
+001-0094-1 (thread    8) worse      
+
+001-0095-1 (thread    6) identical     
+001-0095-1 (thread    6) worse      
+
+001-0096-1 (thread    2) identical     
+001-0096-1 (thread    2) worse      
+
+001-0097-0 (thread    1) identical     
+001-0097-0 (thread    1) worse      
+
+001-0098-1 (thread    6) identical     
+001-0098-1 (thread    6) better     
+
+001-0099-0 (thread    8) identical     
+001-0099-0 (thread    8) worse      
+
+001-0100-0 (thread    4) identical     
+001-0100-1 (thread    3) identical     
+001-0100-0 (thread    4) better     
+
+001-0101-1 (thread    3) worse      
+
+001-0102-0 (thread    2) identical     
+001-0102-0 (thread    2) worse      
+
+001-0103-1 (thread    3) identical     
+001-0103-1 (thread    3) better     
+
+001-0104-0 (thread    2) identical     
+001-0104-0 (thread    2) worse      
+
+001-0105-1 (thread    1) identical     
+001-0105-1 (thread    1) worse      
+
+001-0106-1 (thread    3) identical     
+001-0106-1 (thread    3) worse      
+
+001-0107-1 (thread    7) identical     
+001-0107-1 (thread    7) worse      
+
+001-0108-0 (thread    2) identical     
+
+001-0109-1 (thread    1) identical     
+001-0109-1 (thread    1) worse      
+
+001-0110-0 (thread    6) identical     
+001-0110-0 (thread    6) worse      
+
+001-0111-1 (thread    7) identical     
+001-0111-1 (thread    7) worse      
+
+001-0112-0 (thread    5) identical     
+001-0112-0 (thread    5) worse      
+
+001-0113-0 (thread    2) identical     
+001-0113-0 (thread    2) better     
+
+001-0114-1 (thread    7) identical     
+001-0114-1 (thread    7) better     
+
+001-0115-0 (thread    6) identical     
+001-0115-0 (thread    6) worse      
+
+001-0116-0 (thread    7) identical     
+001-0116-1 (thread    8) identical     
+001-0116-0 (thread    7) worse      
+
+001-0117-1 (thread    8) worse      
+
+001-0118-0 (thread    4) identical     
+001-0118-0 (thread    4) worse      
+
+001-0119-0 (thread    7) identical     
+001-0119-0 (thread    7) worse      
+
+001-0120-1 (thread    6) identical     
+001-0120-1 (thread    6) worse      
+
+001-0121-1 (thread    1) identical     
+001-0121-0 (thread    3) identical     
+001-0121-1 (thread    1) worse      
+
+001-0122-0 (thread    3) worse      
+
+001-0123-1 (thread    7) identical     
+001-0123-1 (thread    7) worse      
+
+001-0124-0 (thread    5) identical     
+001-0124-1 (thread    2) identical     
+001-0124-0 (thread    5) worse      
+
+001-0125-1 (thread    2) worse      
+
+001-0126-0 (thread    6) identical     
+001-0126-0 (thread    6) worse      
+
+001-0127-0 (thread    4) identical     
+001-0127-0 (thread    4) worse      
+
+001-0128-1 (thread    1) identical     
+001-0128-1 (thread    2) identical     
+001-0128-1 (thread    1) worse      
+
+001-0129-1 (thread    2) better     
+
+001-0130-1 (thread    2) identical     
+001-0130-1 (thread    2) worse      
+
+001-0131-0 (thread    1) identical     
+001-0131-0 (thread    1) better     
+
+001-0132-1 (thread    4) identical     
+001-0132-1 (thread    4) worse      
+
+001-0133-1 (thread    1) identical     
+001-0133-1 (thread    1) worse      
+
+001-0134-0 (thread    3) identical     
+001-0134-0 (thread    6) identical     
+001-0134-0 (thread    3) worse      
+
+001-0135-0 (thread    6) worse      
+
+001-0136-1 (thread    1) identical     
+001-0136-1 (thread    6) identical     
+001-0136-1 (thread    1) worse      
+
+001-0137-1 (thread    6) better     
+
+001-0138-1 (thread    6) identical     
+001-0138-1 (thread    6) worse      
+
+001-0139-0 (thread    5) identical     
+001-0139-0 (thread    5) worse      
+
+001-0140-0 (thread    1) identical     
+001-0140-0 (thread    1) better     
+
+001-0141-0 (thread    1) identical     
+001-0141-0 (thread    1) better     
+
+001-0142-1 (thread    1) identical     
+001-0142-1 (thread    1) worse      
+
+001-0143-0 (thread    4) identical     
+001-0143-0 (thread    4) worse      
+
+001-0144-0 (thread    6) identical     
+001-0144-0 (thread    6) worse      
+
+001-0145-0 (thread    1) identical     
+001-0145-0 (thread    1) worse      
+
+001-0146-1 (thread    7) identical     
+001-0146-1 (thread    7) worse      
+
+001-0147-0 (thread    7) identical     
+001-0147-0 (thread    7) better     
+
+001-0148-1 (thread    7) identical     
+001-0148-1 (thread    7) better     
+
+001-0149-1 (thread    8) identical     
+001-0149-1 (thread    8) worse      
+
+001-0150-1 (thread    4) identical     
+001-0150-1 (thread    4) worse      
+
+001-0151-0 (thread    2) identical     
+001-0151-0 (thread    2) worse      
+
+001-0152-0 (thread    7) identical     
+
+001-0153-1 (thread    8) identical     
+001-0153-1 (thread    8) worse      
+
+001-0154-0 (thread    4) identical     
+001-0154-0 (thread    4) worse      
+
+001-0155-1 (thread    2) identical     
+001-0155-1 (thread    2) worse      
+
+001-0156-0 (thread    6) identical     
+001-0156-0 (thread    6) worse      
+
+001-0157-0 (thread    4) identical     
+001-0157-0 (thread    4) worse      
+
+001-0158-1 (thread    1) identical     
+001-0158-1 (thread    1) worse      
+
+001-0159-1 (thread    8) identical     
+001-0159-0 (thread    6) identical     
+001-0159-0 (thread    6) worse      
+
+001-0160-1 (thread    2) identical     
+001-0160-1 (thread    2) worse      
+
+001-0161-0 (thread    1) identical     
+001-0161-0 (thread    1) worse      
+
+001-0162-1 (thread    4) identical     
+001-0162-1 (thread    4) worse      
+
+001-0163-1 (thread    8) worse      
+
+001-0164-1 (thread    5) identical     
+001-0164-1 (thread    5) worse      
+
+001-0165-0 (thread    4) identical     
+001-0165-0 (thread    4) worse      
+
+001-0166-0 (thread    7) identical     
+001-0166-0 (thread    7) better     
+
+001-0167-0 (thread    7) identical     
+001-0167-0 (thread    7) better     
+
+001-0168-1 (thread    6) identical     
+001-0168-1 (thread    6) better     
+
+001-0169-0 (thread    5) identical     
+001-0169-0 (thread    5) better     
+
+001-0170-1 (thread    7) identical     
+001-0170-1 (thread    7) better     
+
+001-0171-1 (thread    8) identical     
+
+001-0172-0 (thread    3) identical     
+001-0172-0 (thread    3) worse      
+
+001-0173-1 (thread    1) identical     
+001-0173-1 (thread    1) worse      
+
+001-0174-0 (thread    6) identical     
+001-0174-0 (thread    6) worse      
+
+001-0175-1 (thread    1) identical     
+001-0175-1 (thread    1) better     
+
+001-0176-1 (thread    1) identical     
+001-0176-1 (thread    8) identical     
+001-0176-1 (thread    8) worse      
+
+001-0177-1 (thread    1) worse      
+
+001-0178-0 (thread    7) identical     
+001-0178-0 (thread    7) worse      
+
+001-0179-0 (thread    8) identical     
+001-0179-0 (thread    8) worse      
+
+001-0180-1 (thread    1) identical     
+001-0180-1 (thread    1) worse      
+
+001-0181-1 (thread    4) identical     
+001-0181-1 (thread    4) better     
+
+001-0182-1 (thread    4) identical     
+001-0182-1 (thread    4) worse      
+
+001-0183-0 (thread    6) identical     
+001-0183-0 (thread    6) worse      
+
+001-0184-0 (thread    4) identical     
+001-0184-0 (thread    4) worse      
+
+001-0185-0 (thread    7) identical     
+001-0185-1 (thread    6) identical     
+001-0185-0 (thread    7) worse      
+
+001-0186-1 (thread    6) worse      
+
+001-0187-0 (thread    1) identical     
+001-0187-0 (thread    4) identical     
+001-0187-0 (thread    4) better     
+
+001-0188-0 (thread    1) worse      
+
+001-0189-0 (thread    6) identical     
+001-0189-0 (thread    6) worse      
+
+001-0190-1 (thread    7) identical     
+001-0190-1 (thread    7) better     
+
+001-0191-0 (thread    1) identical     
+001-0191-1 (thread    4) identical     
+001-0191-0 (thread    1) worse      
+
+001-0192-1 (thread    4) worse      
+
+001-0193-1 (thread    5) identical     
+001-0193-1 (thread    5) better     
+
+001-0194-1 (thread    5) identical     
+001-0194-1 (thread    5) worse      
+
+001-0195-1 (thread    6) identical     
+001-0195-1 (thread    6) better     
+
+001-0196-1 (thread    6) identical     
+001-0196-1 (thread    6) worse      
+
+001-0197-0 (thread    7) identical     
+001-0197-0 (thread    7) better     
+
+001-0198-1 (thread    7) identical     
+001-0198-1 (thread    7) worse      
+
+001-0199-0 (thread    3) identical     
+001-0199-0 (thread    3) better     
+
+001-0200-1 (thread    3) identical     
+001-0200-0 (thread    7) identical     
+001-0200-0 (thread    7) worse      
+
+001-0201-1 (thread    3) better     
+
+001-0202-1 (thread    3) identical     
+001-0202-1 (thread    3) worse      
+
+001-0203-0 (thread    5) identical     
+001-0203-0 (thread    5) worse      
+
+001-0204-0 (thread    4) identical     
+001-0204-0 (thread    4) worse      
+
+001-0205-1 (thread    1) identical     
+001-0205-1 (thread    1) worse      
+
+001-0206-1 (thread    8) identical     
+001-0206-1 (thread    8) worse      
+
+001-0207-1 (thread    1) identical     
+001-0207-1 (thread    1) worse      
+
+001-0208-0 (thread    6) identical     
+001-0208-0 (thread    6) worse      
+
+001-0209-1 (thread    5) identical     
+001-0209-0 (thread    7) identical     
+001-0209-1 (thread    5) worse      
+
+001-0210-0 (thread    7) worse      
+
+001-0211-0 (thread    2) identical     
+001-0211-0 (thread    2) worse      
+
+001-0212-0 (thread    4) identical     
+001-0212-0 (thread    3) identical     
+001-0212-0 (thread    4) worse      
+
+001-0213-0 (thread    3) worse      
+
+001-0214-0 (thread    8) identical     
+001-0214-0 (thread    8) better     
+
+001-0215-0 (thread    4) identical     
+001-0215-0 (thread    4) worse      
+
+001-0216-1 (thread    3) identical     
+001-0216-1 (thread    3) better     
+
+001-0217-0 (thread    3) identical     
+001-0217-0 (thread    3) better     
+
+001-0218-1 (thread    3) identical     
+001-0218-1 (thread    3) better     
+
+001-0219-0 (thread    3) identical     
+001-0219-0 (thread    3) worse      
+
+001-0220-0 (thread    7) identical     
+001-0220-0 (thread    7) worse      
+
+001-0221-0 (thread    6) identical     
+001-0221-0 (thread    6) better     
+
+001-0222-0 (thread    7) identical     
+001-0222-0 (thread    7) better     
+
+001-0223-1 (thread    6) identical     
+001-0223-1 (thread    6) worse      
+
+001-0224-0 (thread    8) identical     
+001-0224-0 (thread    8) worse      
+
+001-0225-1 (thread    3) identical     
+001-0225-1 (thread    3) worse      
+
+001-0226-1 (thread    4) identical     
+001-0226-1 (thread    5) identical     
+001-0226-1 (thread    5) better     
+
+001-0227-1 (thread    4) worse      
+
+001-0228-0 (thread    8) identical     
+001-0228-0 (thread    8) worse      
+
+001-0229-1 (thread    1) identical     
+001-0229-1 (thread    1) better     
+
+001-0230-0 (thread    8) identical     
+001-0230-0 (thread    8) worse      
+
+001-0231-1 (thread    1) identical     
+001-0231-1 (thread    1) worse      
+
+001-0232-1 (thread    6) identical     
+001-0232-1 (thread    6) worse      
+
+001-0233-1 (thread    4) identical     
+001-0233-1 (thread    4) worse      
+
+001-0234-0 (thread    6) identical     
+001-0234-0 (thread    6) worse      
+
+001-0235-0 (thread    8) identical     
+001-0235-1 (thread    4) identical     
+001-0235-1 (thread    4) better     
+
+001-0236-0 (thread    8) worse      
+
+001-0237-1 (thread    4) identical     
+001-0237-1 (thread    4) worse      
+
+001-0238-0 (thread    5) identical     
+001-0238-0 (thread    5) worse      
+
+001-0239-1 (thread    2) identical     
+001-0239-1 (thread    2) better     
+
+001-0240-1 (thread    2) identical     
+001-0240-1 (thread    2) worse      
+
+001-0241-0 (thread    6) identical     
+001-0241-0 (thread    6) better     
+
+001-0242-1 (thread    6) identical     
+001-0242-1 (thread    6) better     
+
+001-0243-0 (thread    6) identical     
+001-0243-0 (thread    6) better     
+
+001-0244-1 (thread    4) identical     
+001-0244-1 (thread    4) worse      
+
+001-0245-0 (thread    5) identical     
+001-0245-0 (thread    5) better     
+
+001-0246-1 (thread    6) identical     
+001-0246-1 (thread    6) better     
+
+001-0247-1 (thread    5) identical     
+001-0247-1 (thread    5) worse      
+
+001-0248-1 (thread    3) identical     
+001-0248-1 (thread    3) better     
+
+001-0249-0 (thread    2) identical     
+001-0249-0 (thread    2) worse      
+
+001-0250-0 (thread    4) identical     
+001-0250-0 (thread    4) better     
+
+001-0251-1 (thread    5) identical     
+001-0251-0 (thread    3) identical     
+001-0251-1 (thread    5) worse      
+
+001-0252-0 (thread    3) worse      
+
+001-0253-0 (thread    3) identical     
+001-0253-0 (thread    3) worse      
+
+001-0254-1 (thread    5) identical     
+001-0254-1 (thread    5) worse      
+
+001-0255-0 (thread    7) identical     
+001-0255-1 (thread    1) identical     
+001-0255-0 (thread    7) worse      
+
+001-0256-0 (thread    4) identical     
+001-0256-1 (thread    3) identical     
+001-0256-0 (thread    4) worse      
+
+001-0257-1 (thread    3) worse      
+
+001-0258-0 (thread    6) identical     
+001-0258-1 (thread    1) worse      
+
+001-0259-1 (thread    2) identical     
+001-0259-1 (thread    3) identical     
+001-0259-1 (thread    3) better     
+
+001-0260-1 (thread    2) worse      
+
+001-0261-0 (thread    6) worse      
+
+001-0261-1 (thread    3) identical     
+001-0261-1 (thread    3) worse      
+
+001-0263-0 (thread    4) identical     
+001-0263-0 (thread    4) worse      
+
+001-0264-1 (thread    4) identical     
+001-0264-1 (thread    4) worse      
+
+001-0265-0 (thread    8) identical     
+001-0265-0 (thread    8) worse      
+
+001-0266-0 (thread    5) identical     
+001-0266-0 (thread    2) identical     
+001-0266-0 (thread    5) worse      
+
+001-0267-0 (thread    1) identical     
+001-0267-0 (thread    2) better     
+
+001-0268-0 (thread    1) worse      
+
+001-0269-1 (thread    7) identical     
+001-0269-1 (thread    7) worse      
+
+001-0270-0 (thread    4) identical     
+001-0270-1 (thread    2) identical     
+001-0270-1 (thread    2) worse      
+
+001-0271-0 (thread    4) worse      
+
+001-0272-1 (thread    7) identical     
+001-0272-1 (thread    3) identical     
+001-0272-1 (thread    7) worse      
+
+001-0273-1 (thread    8) identical     
+001-0273-1 (thread    8) worse      
+
+001-0274-1 (thread    3) worse      
+
+001-0275-1 (thread    4) identical     
+001-0275-1 (thread    4) worse      
+
+001-0276-1 (thread    8) identical     
+001-0276-1 (thread    8) worse      
+
+001-0277-1 (thread    4) identical     
+001-0277-1 (thread    4) worse      
+
+001-0278-0 (thread    3) identical     
+001-0278-0 (thread    3) worse      
+
+001-0279-0 (thread    5) identical     
+001-0279-0 (thread    2) identical     
+001-0279-0 (thread    2) worse      
+
+001-0280-1 (thread    4) identical     
+001-0280-1 (thread    4) better     
+
+001-0281-0 (thread    5) worse      
+
+001-0282-0 (thread    4) identical     
+001-0282-0 (thread    4) worse      
+
+001-0283-1 (thread    5) identical     
+001-0283-1 (thread    5) worse      
+
+001-0284-0 (thread    7) identical     
+001-0284-0 (thread    6) identical     
+001-0284-0 (thread    7) worse      
+
+001-0285-0 (thread    6) better     
+
+001-0286-1 (thread    6) identical     
+001-0286-1 (thread    6) worse      
+
+001-0287-0 (thread    7) identical     
+001-0287-0 (thread    3) identical     
+001-0287-0 (thread    4) identical     
+001-0287-0 (thread    8) identical     
+001-0287-0 (thread    7) worse      
+
+001-0288-0 (thread    8) worse      
+
+001-0289-0 (thread    3) worse      
+
+001-0290-0 (thread    4) worse      
+
+001-0291-1 (thread    5) identical     
+001-0291-1 (thread    2) identical     
+001-0291-1 (thread    2) worse      
+
+001-0292-1 (thread    5) worse      
+
+001-0293-1 (thread    7) identical     
+001-0293-1 (thread    7) worse      
+
+001-0294-0 (thread    6) identical     
+001-0294-1 (thread    8) identical     
+001-0294-1 (thread    8) worse      
+
+001-0295-0 (thread    6) better     
+
+001-0296-0 (thread    1) identical     
+001-0296-0 (thread    1) better     
+
+002-0000-0 (thread    3) identical     
+002-0000-1 (thread    4) identical     
+002-0000-0 (thread    3) worse      
+
+002-0001-1 (thread    4) worse      
+
+002-0002-0 (thread    8) identical     
+002-0002-0 (thread    8) worse      
+
+002-0003-1 (thread    7) identical     
+002-0003-1 (thread    7) better     
+
+002-0004-0 (thread    3) identical     
+002-0004-0 (thread    3) better     
+
+002-0005-1 (thread    5) identical     
+
+002-0006-0 (thread    3) identical     
+002-0006-0 (thread    3) worse      
+
+002-0007-1 (thread    2) identical     
+002-0007-1 (thread    2) worse      
+
+002-0008-0 (thread    6) identical     
+002-0008-0 (thread    6) worse      
+
+002-0009-0 (thread    6) identical     
+002-0009-0 (thread    6) worse      
+
+002-0010-0 (thread    3) identical     
+002-0010-0 (thread    3) worse      
+
+002-0011-1 (thread    7) identical     
+002-0011-1 (thread    7) worse      
+
+002-0012-1 (thread    5) identical     
+002-0012-1 (thread    5) worse      
+
+002-0013-0 (thread    8) identical     
+002-0013-0 (thread    8) worse      
+
+002-0014-1 (thread    6) identical     
+002-0014-1 (thread    6) worse      
+
+002-0015-0 (thread    3) identical     
+002-0015-0 (thread    3) worse      
+
+002-0016-0 (thread    5) identical     
+002-0016-0 (thread    5) worse      
+
+002-0017-1 (thread    8) identical     
+002-0017-1 (thread    8) worse      
+
+002-0018-0 (thread    6) identical     
+002-0018-0 (thread    6) worse      
+
+002-0019-1 (thread    2) identical     
+002-0019-0 (thread    1) identical     
+
+002-0020-1 (thread    4) identical     
+002-0020-1 (thread    2) worse      
+
+002-0021-1 (thread    4) worse      
+
+002-0022-1 (thread    3) identical     
+002-0022-1 (thread    3) worse      
+
+002-0023-0 (thread    5) identical     
+002-0023-0 (thread    5) worse      
+
+002-0024-1 (thread    7) identical     
+002-0024-1 (thread    7) worse      
+
+002-0025-1 (thread    8) identical     
+002-0025-1 (thread    8) worse      
+
+002-0026-0 (thread    3) identical     
+002-0026-0 (thread    3) worse      
+
+002-0027-0 (thread    7) identical     
+002-0027-0 (thread    7) worse      
+
+002-0028-0 (thread    2) identical     
+002-0028-1 (thread    1) identical     
+002-0028-0 (thread    2) worse      
+
+002-0029-1 (thread    1) worse      
+
+002-0030-1 (thread    8) identical     
+002-0030-1 (thread    8) worse      
+
+002-0031-1 (thread    5) identical     
+002-0031-0 (thread    3) identical     
+002-0031-1 (thread    5) worse      
+
+002-0032-0 (thread    3) better     
+
+002-0033-0 (thread    3) identical     
+002-0033-0 (thread    3) better     
+
+002-0034-1 (thread    3) identical     
+002-0034-1 (thread    3) worse      
+
+002-0035-1 (thread    5) identical     
+002-0035-1 (thread    5) worse      
+
+002-0036-1 (thread    7) identical     
+002-0036-1 (thread    7) better     
+
+002-0037-0 (thread    6) identical     
+002-0037-0 (thread    6) worse      
+
+002-0038-1 (thread    1) identical     
+002-0038-1 (thread    1) worse      
+
+002-0039-1 (thread    4) identical     
+002-0039-1 (thread    4) worse      
+
+002-0040-0 (thread    3) identical     
+002-0040-0 (thread    3) better     
+
+002-0041-0 (thread    8) identical     
+002-0041-0 (thread    8) worse      
+
+002-0042-1 (thread    6) identical     
+002-0042-1 (thread    6) worse      
+
+002-0043-0 (thread    7) identical     
+002-0043-0 (thread    7) worse      
+
+002-0044-1 (thread    4) identical     
+002-0044-1 (thread    4) worse      
+
+002-0045-0 (thread    4) identical     
+002-0045-0 (thread    4) worse      
+
+002-0046-1 (thread    5) identical     
+002-0046-1 (thread    5) worse      
+
+002-0047-1 (thread    7) identical     
+002-0047-1 (thread    7) worse      
+
+002-0048-0 (thread    2) identical     
+002-0048-0 (thread    2) worse      
+
+002-0049-0 (thread    1) identical     
+002-0049-0 (thread    1) worse      
+
+002-0050-1 (thread    7) identical     
+002-0050-1 (thread    7) better     
+
+002-0051-0 (thread    7) identical     
+002-0051-0 (thread    7) worse      
+
+002-0052-1 (thread    4) identical     
+002-0052-1 (thread    4) worse      
+
+002-0053-0 (thread    2) identical     
+002-0053-0 (thread    2) worse      
+
+002-0054-0 (thread    5) identical     
+002-0054-0 (thread    5) worse      
+
+002-0055-1 (thread    8) identical     
+002-0055-1 (thread    8) worse      
+
+002-0056-1 (thread    1) identical     
+
+002-0057-1 (thread    2) identical     
+002-0057-1 (thread    2) worse      
+
+002-0058-0 (thread    5) identical     
+002-0058-0 (thread    5) worse      
+
+002-0059-0 (thread    6) identical     
+002-0059-0 (thread    6) worse      
+
+002-0060-1 (thread    7) identical     
+002-0060-1 (thread    7) worse      
+
+002-0061-0 (thread    1) identical     
+002-0061-0 (thread    1) worse      
+
+002-0062-0 (thread    3) identical     
+002-0062-0 (thread    3) worse      
+
+002-0063-0 (thread    4) identical     
+002-0063-0 (thread    4) worse      
+
+002-0064-1 (thread    8) identical     
+002-0064-1 (thread    8) worse      
+
+002-0065-0 (thread    5) identical     
+002-0065-0 (thread    5) worse      
+
+002-0066-1 (thread    6) identical     
+002-0066-0 (thread    3) identical     
+002-0066-0 (thread    3) worse      
+
+002-0067-1 (thread    6) worse      
+
+002-0068-0 (thread    7) identical     
+002-0068-0 (thread    7) worse      
+
+002-0069-1 (thread    1) identical     
+002-0069-1 (thread    1) worse      
+
+002-0070-1 (thread    2) identical     
+002-0070-1 (thread    2) worse      
+
+002-0071-0 (thread    8) identical     
+002-0071-0 (thread    8) worse      
+
+002-0072-1 (thread    6) identical     
+002-0072-1 (thread    6) better     
+
+002-0073-0 (thread    6) identical     
+002-0073-0 (thread    6) worse      
+
+002-0074-1 (thread    8) identical     
+002-0074-1 (thread    8) worse      
+
+002-0075-1 (thread    6) identical     
+002-0075-1 (thread    6) worse      
+
+002-0076-0 (thread    3) identical     
+002-0076-0 (thread    3) better     
+
+002-0077-1 (thread    5) identical     
+002-0077-1 (thread    5) worse      
+
+002-0078-0 (thread    3) identical     
+002-0078-0 (thread    3) worse      
+
+002-0079-1 (thread    1) identical     
+002-0079-1 (thread    1) worse      
+
+002-0080-1 (thread    4) identical     
+002-0080-1 (thread    4) worse      
+
+002-0081-0 (thread    3) identical     
+002-0081-0 (thread    3) worse      
+
+002-0082-1 (thread    1) identical     
+002-0082-1 (thread    1) better     
+
+002-0083-0 (thread    4) identical     
+002-0083-0 (thread    4) worse      
+
+002-0084-0 (thread    2) identical     
+002-0084-1 (thread    6) identical     
+002-0084-1 (thread    6) worse      
+
+002-0085-0 (thread    2) worse      
+
+002-0086-1 (thread    5) identical     
+002-0086-1 (thread    5) worse      
+
+002-0087-0 (thread    7) identical     
+002-0087-0 (thread    7) better     
+
+002-0088-0 (thread    5) identical     
+002-0088-0 (thread    5) better     
+
+002-0089-1 (thread    7) identical     
+002-0089-1 (thread    2) identical     
+002-0089-1 (thread    7) worse      
+
+002-0090-1 (thread    2) worse      
+
+002-0091-0 (thread    5) identical     
+002-0091-0 (thread    5) better     
+
+002-0092-0 (thread    8) identical     
+002-0092-1 (thread    5) identical     
+002-0092-0 (thread    8) worse      
+
+002-0093-1 (thread    5) worse      
+
+002-0094-1 (thread    4) identical     
+002-0094-1 (thread    4) worse      
+
+002-0095-1 (thread    7) identical     
+002-0095-1 (thread    7) better     
+
+002-0096-1 (thread    7) identical     
+002-0096-1 (thread    7) worse      
+
+002-0097-0 (thread    8) identical     
+002-0097-0 (thread    8) better     
+
+002-0098-1 (thread    8) identical     
+002-0098-1 (thread    8) better     
+
+002-0099-0 (thread    6) identical     
+002-0099-0 (thread    6) worse      
+
+002-0100-0 (thread    1) identical     
+002-0100-0 (thread    7) identical     
+002-0100-0 (thread    1) worse      
+
+002-0101-0 (thread    7) worse      
+
+002-0102-0 (thread    8) identical     
+002-0102-0 (thread    8) worse      
+
+002-0103-1 (thread    7) identical     
+002-0103-1 (thread    7) worse      
+
+002-0104-0 (thread    4) identical     
+002-0104-0 (thread    4) worse      
+
+002-0105-0 (thread    1) identical     
+002-0105-1 (thread    6) identical     
+002-0105-0 (thread    1) worse      
+
+002-0106-1 (thread    7) identical     
+002-0106-1 (thread    6) worse      
+
+002-0107-1 (thread    7) better     
+
+002-0108-1 (thread    7) identical     
+002-0108-1 (thread    7) worse      
+
+002-0109-0 (thread    4) identical     
+002-0109-0 (thread    4) worse      
+
+002-0110-1 (thread    1) identical     
+002-0110-1 (thread    1) worse      
+
+002-0111-0 (thread    2) identical     
+002-0111-0 (thread    2) worse      
+
+002-0112-1 (thread    3) identical     
+002-0112-1 (thread    3) worse      
+
+002-0113-1 (thread    5) identical     
+002-0113-1 (thread    5) better     
+
+002-0114-1 (thread    5) identical     
+002-0114-1 (thread    5) worse      
+
+002-0115-1 (thread    2) identical     
+002-0115-0 (thread    6) identical     
+002-0115-1 (thread    2) worse      
+
+002-0116-0 (thread    6) worse      
+
+002-0117-0 (thread    7) identical     
+002-0117-0 (thread    7) worse      
+
+002-0118-0 (thread    1) identical     
+002-0118-0 (thread    1) worse      
+
+002-0119-0 (thread    8) identical     
+002-0119-1 (thread    4) identical     
+002-0119-0 (thread    8) worse      
+
+002-0120-1 (thread    4) worse      
+
+002-0121-1 (thread    7) identical     
+002-0121-1 (thread    7) worse      
+
+002-0122-0 (thread    6) identical     
+002-0122-0 (thread    6) worse      
+
+002-0123-0 (thread    5) identical     
+002-0123-0 (thread    5) worse      
+
+002-0124-1 (thread    2) identical     
+002-0124-1 (thread    2) worse      
+
+002-0125-0 (thread    1) identical     
+002-0125-0 (thread    1) worse      
+
+002-0126-0 (thread    4) identical     
+002-0126-0 (thread    4) better     
+
+002-0127-0 (thread    2) identical     
+002-0127-0 (thread    2) worse      
+
+002-0128-1 (thread    7) identical     
+002-0128-1 (thread    5) identical     
+002-0128-1 (thread    5) worse      
+
+002-0129-1 (thread    7) worse      
+
+002-0130-0 (thread    6) identical     
+002-0130-1 (thread    1) identical     
+002-0130-1 (thread    1) better     
+
+002-0131-0 (thread    6) worse      
+
+002-0132-0 (thread    3) identical     
+002-0132-0 (thread    3) worse      
+
+002-0133-0 (thread    1) identical     
+002-0133-0 (thread    1) worse      
+
+002-0134-0 (thread    5) identical     
+002-0134-0 (thread    5) worse      
+
+002-0135-0 (thread    4) identical     
+002-0135-0 (thread    4) worse      
+
+002-0136-1 (thread    2) identical     
+002-0136-1 (thread    2) better     
+
+002-0137-0 (thread    2) identical     
+002-0137-0 (thread    2) worse      
+
+002-0138-1 (thread    1) identical     
+002-0138-1 (thread    1) worse      
+
+002-0139-1 (thread    7) identical     
+002-0139-1 (thread    7) better     
+
+002-0140-1 (thread    2) identical     
+002-0140-1 (thread    2) worse      
+
+002-0141-0 (thread    3) identical     
+002-0141-0 (thread    2) identical     
+002-0141-0 (thread    2) worse      
+
+002-0142-0 (thread    3) worse      
+
+002-0143-0 (thread    1) identical     
+002-0143-1 (thread    2) identical     
+002-0143-1 (thread    2) worse      
+
+002-0144-0 (thread    1) worse      
+
+002-0145-1 (thread    7) identical     
+002-0145-1 (thread    7) worse      
+
+002-0146-1 (thread    6) identical     
+002-0146-1 (thread    6) worse      
+
+002-0147-1 (thread    8) identical     
+002-0147-1 (thread    8) worse      
+
+002-0148-0 (thread    1) identical     
+002-0148-0 (thread    1) worse      
+
+002-0149-1 (thread    2) identical     
+002-0149-1 (thread    2) worse      
+
+002-0150-1 (thread    7) identical     
+002-0150-1 (thread    7) worse      
+
+002-0151-0 (thread    6) identical     
+002-0151-0 (thread    6) worse      
+
+002-0152-1 (thread    8) identical     
+002-0152-1 (thread    8) worse      
+
+002-0153-0 (thread    7) identical     
+002-0153-0 (thread    7) worse      
+
+002-0154-0 (thread    1) identical     
+002-0154-1 (thread    4) identical     
+002-0154-0 (thread    3) identical     
+002-0154-1 (thread    4) worse      
+
+002-0155-0 (thread    3) worse      
+
+002-0156-1 (thread    6) identical     
+002-0156-1 (thread    6) better     
+
+002-0157-0 (thread    1) worse      
+
+002-0158-0 (thread    4) identical     
+002-0158-0 (thread    4) worse      
+
+002-0159-1 (thread    2) identical     
+002-0159-1 (thread    2) worse      
+
+002-0160-0 (thread    8) identical     
+002-0160-0 (thread    8) worse      
+
+002-0161-0 (thread    4) identical     
+002-0161-0 (thread    4) better     
+
+002-0162-1 (thread    2) identical     
+002-0162-1 (thread    2) worse      
+
+002-0163-1 (thread    7) identical     
+002-0163-1 (thread    7) better     
+
+002-0164-0 (thread    6) identical     
+002-0164-0 (thread    8) identical     
+002-0164-0 (thread    6) worse      
+
+002-0165-1 (thread    4) identical     
+002-0165-0 (thread    8) worse      
+
+002-0166-1 (thread    4) worse      
+
+002-0167-0 (thread    2) identical     
+002-0167-0 (thread    2) worse      
+
+002-0168-1 (thread    1) identical     
+002-0168-1 (thread    1) worse      
+
+002-0169-0 (thread    6) identical     
+002-0169-0 (thread    6) worse      
+
+002-0170-0 (thread    5) identical     
+002-0170-0 (thread    5) worse      
+
+002-0171-1 (thread    3) identical     
+002-0171-1 (thread    3) worse      
+
+002-0172-1 (thread    8) identical     
+002-0172-1 (thread    8) better     
+
+002-0173-0 (thread    4) identical     
+002-0173-0 (thread    4) worse      
+
+002-0174-0 (thread    1) identical     
+002-0174-0 (thread    1) better     
+
+002-0175-1 (thread    4) identical     
+002-0175-1 (thread    4) worse      
+
+002-0176-1 (thread    6) identical     
+002-0176-1 (thread    6) worse      
+
+002-0177-1 (thread    3) identical     
+002-0177-1 (thread    3) worse      
+
+002-0178-1 (thread    2) identical     
+002-0178-1 (thread    2) worse      
+
+002-0179-1 (thread    4) identical     
+002-0179-0 (thread    1) identical     
+002-0179-0 (thread    5) identical     
+002-0179-1 (thread    3) identical     
+002-0179-1 (thread    3) worse      
+
+002-0180-0 (thread    5) worse      
+
+002-0181-0 (thread    1) worse      
+
+002-0181-1 (thread    4) worse      
+
+002-0182-1 (thread    7) identical     
+002-0183-1 (thread    7) worse      
+
+002-0184-0 (thread    6) identical     
+002-0184-0 (thread    6) worse      
+
+002-0185-1 (thread    7) identical     
+002-0185-1 (thread    7) better     
+
+002-0186-0 (thread    1) identical     
+002-0186-0 (thread    1) worse      
+
+002-0187-0 (thread    8) identical     
+002-0187-0 (thread    8) better     
+
+002-0188-0 (thread    6) identical     
+002-0188-0 (thread    6) worse      
+
+002-0189-1 (thread    7) identical     
+002-0189-0 (thread    5) identical     
+002-0189-1 (thread    7) worse      
+
+002-0190-0 (thread    2) identical     
+002-0190-0 (thread    6) identical     
+002-0190-0 (thread    6) worse      
+
+002-0191-1 (thread    4) identical     
+002-0191-1 (thread    8) identical     
+002-0191-1 (thread    4) worse      
+
+002-0192-0 (thread    2) worse      
+
+002-0193-1 (thread    8) worse      
+
+002-0194-0 (thread    5) worse      
+
+002-0195-0 (thread    1) identical     
+002-0195-0 (thread    1) worse      
+
+002-0196-1 (thread    8) identical     
+002-0196-1 (thread    8) better     
+
+002-0197-0 (thread    5) identical     
+002-0197-0 (thread    5) worse      
+
+002-0198-1 (thread    1) identical     
+002-0198-1 (thread    1) worse      
+
+002-0199-0 (thread    8) identical     
+002-0199-0 (thread    8) worse      
+
+002-0200-1 (thread    5) identical     
+002-0200-1 (thread    5) worse      
+
+002-0201-1 (thread    4) identical     
+002-0201-1 (thread    4) worse      
+
+002-0202-1 (thread    7) identical     
+002-0202-1 (thread    7) worse      
+
+002-0203-1 (thread    3) identical     
+002-0203-1 (thread    3) worse      
+
+002-0204-1 (thread    8) identical     
+002-0204-1 (thread    8) worse      
+
+002-0205-0 (thread    1) identical     
+002-0205-0 (thread    1) worse      
+
+002-0206-0 (thread    6) identical     
+002-0206-0 (thread    6) worse      
+
+002-0207-1 (thread    4) identical     
+002-0207-1 (thread    4) better     
+
+002-0208-1 (thread    1) identical     
+002-0208-1 (thread    1) worse      
+
+002-0209-0 (thread    6) identical     
+002-0209-0 (thread    6) better     
+
+002-0210-0 (thread    1) identical     
+002-0210-0 (thread    1) worse      
+
+002-0211-1 (thread    4) identical     
+002-0211-1 (thread    4) worse      
+
+002-0212-0 (thread    7) identical     
+002-0212-0 (thread    5) identical     
+002-0212-0 (thread    7) worse      
+
+002-0213-0 (thread    5) worse      
+
+002-0214-1 (thread    3) identical     
+002-0214-1 (thread    3) worse      
+
+002-0215-0 (thread    2) identical     
+002-0215-0 (thread    2) worse      
+
+002-0216-1 (thread    5) identical     
+002-0216-0 (thread    7) identical     
+002-0216-1 (thread    5) worse      
+
+002-0217-0 (thread    7) worse      
+
+002-0218-0 (thread    8) identical     
+002-0218-0 (thread    8) worse      
+
+002-0219-1 (thread    6) identical     
+002-0219-1 (thread    6) worse      
+
+002-0220-0 (thread    5) identical     
+002-0220-0 (thread    1) identical     
+002-0220-0 (thread    5) worse      
+
+002-0221-0 (thread    1) worse      
+
+002-0222-0 (thread    3) identical     
+002-0222-0 (thread    3) worse      
+
+002-0223-1 (thread    7) identical     
+002-0223-1 (thread    7) worse      
+
+002-0224-0 (thread    5) identical     
+002-0224-0 (thread    5) worse      
+
+002-0225-1 (thread    1) identical     
+002-0225-1 (thread    1) worse      
+
+002-0226-1 (thread    7) identical     
+002-0226-1 (thread    7) worse      
+
+002-0227-1 (thread    4) identical     
+002-0227-1 (thread    2) identical     
+002-0227-1 (thread    4) worse      
+
+002-0228-1 (thread    6) identical     
+002-0228-1 (thread    2) worse      
+
+002-0229-1 (thread    6) better     
+
+002-0230-0 (thread    5) identical     
+002-0230-0 (thread    5) worse      
+
+002-0231-0 (thread    2) identical     
+002-0231-0 (thread    2) worse      
+
+002-0232-1 (thread    4) identical     
+002-0232-1 (thread    4) worse      
+
+002-0233-1 (thread    6) identical     
+002-0233-1 (thread    6) worse      
+
+002-0234-0 (thread    7) identical     
+002-0234-0 (thread    7) worse      
+
+002-0235-0 (thread    8) identical     
+002-0235-1 (thread    1) identical     
+002-0235-1 (thread    1) worse      
+
+002-0236-0 (thread    8) worse      
+
+002-0237-1 (thread    6) identical     
+002-0237-0 (thread    4) identical     
+002-0237-1 (thread    6) worse      
+
+002-0238-0 (thread    4) worse      
+
+002-0239-1 (thread    6) identical     
+002-0239-1 (thread    6) better     
+
+002-0240-0 (thread    4) identical     
+002-0240-0 (thread    4) worse      
+
+002-0241-1 (thread    1) identical     
+002-0241-1 (thread    1) worse      
+
+002-0242-1 (thread    6) identical     
+002-0242-1 (thread    6) better     
+
+002-0243-1 (thread    1) identical     
+002-0243-1 (thread    1) worse      
+
+002-0244-0 (thread    4) identical     
+002-0244-0 (thread    4) worse      
+
+002-0245-0 (thread    7) identical     
+002-0245-0 (thread    7) worse      
+
+002-0246-0 (thread    6) identical     
+002-0246-0 (thread    6) worse      
+
+002-0247-1 (thread    1) identical     
+002-0247-1 (thread    1) worse      
+
+002-0248-0 (thread    4) identical     
+002-0248-0 (thread    4) worse      
+
+002-0249-0 (thread    5) identical     
+002-0249-1 (thread    7) identical     
+002-0249-1 (thread    7) worse      
+
+002-0250-0 (thread    5) worse      
+
+002-0251-1 (thread    1) identical     
+002-0251-1 (thread    1) worse      
+
+002-0252-0 (thread    4) identical     
+002-0252-0 (thread    4) worse      
+
+002-0253-1 (thread    2) identical     
+002-0253-0 (thread    3) identical     
+002-0253-1 (thread    2) worse      
+
+002-0254-0 (thread    3) worse      
+
+002-0255-0 (thread    8) identical     
+002-0255-0 (thread    6) identical     
+002-0255-0 (thread    4) identical     
+002-0255-0 (thread    4) worse      
+
+002-0256-0 (thread    5) identical     
+002-0256-0 (thread    8) worse      
+
+002-0257-0 (thread    5) worse      
+
+002-0258-1 (thread    1) identical     
+002-0258-1 (thread    2) identical     
+002-0258-0 (thread    6) worse      
+
+002-0259-1 (thread    1) worse      
+
+002-0260-1 (thread    2) worse      
+
+002-0261-1 (thread    5) identical     
+002-0261-1 (thread    5) worse      
+
+002-0262-1 (thread    1) identical     
+002-0262-1 (thread    1) worse      
+
+002-0263-1 (thread    7) identical     
+002-0263-1 (thread    4) identical     
+002-0263-1 (thread    4) worse      
+
+002-0264-1 (thread    7) worse      
+
+002-0265-0 (thread    8) identical     
+002-0265-0 (thread    8) worse      
+
+002-0266-0 (thread    3) identical     
+002-0266-0 (thread    2) identical     
+002-0266-0 (thread    2) worse      
+
+002-0267-1 (thread    4) identical     
+002-0267-1 (thread    4) better     
+
+002-0268-0 (thread    3) worse      
+
+002-0269-0 (thread    2) identical     
+002-0269-0 (thread    2) worse      
+
+002-0270-1 (thread    8) identical     
+002-0270-1 (thread    8) worse      
+
+002-0271-1 (thread    5) identical     
+002-0271-1 (thread    4) identical     
+002-0271-1 (thread    4) worse      
+
+002-0272-1 (thread    5) worse      
+
+002-0273-0 (thread    8) identical     
+002-0273-0 (thread    3) identical     
+002-0273-0 (thread    8) worse      
+
+002-0274-0 (thread    1) identical     
+002-0274-0 (thread    6) identical     
+002-0274-0 (thread    7) identical     
+002-0274-1 (thread    4) identical     
+002-0274-0 (thread    3) worse      
+
+002-0275-1 (thread    4) worse      
+
+002-0276-0 (thread    7) worse      
+
+002-0277-0 (thread    6) worse      
+
+002-0278-0 (thread    1) worse      
+
+002-0279-1 (thread    2) identical     
+002-0279-1 (thread    8) identical     
+002-0279-1 (thread    8) worse      
+
+002-0280-1 (thread    2) worse      
+
+002-0281-1 (thread    4) identical     
+002-0281-1 (thread    4) worse      
+
+002-0282-0 (thread    3) identical     
+002-0282-0 (thread    3) worse      
+
+002-0283-1 (thread    4) identical     
+002-0283-1 (thread    4) better     
+
+002-0284-0 (thread    2) identical     
+002-0284-0 (thread    2) worse      
+
+002-0285-1 (thread    6) identical     
+002-0285-1 (thread    6) worse      
+
+002-0286-1 (thread    8) identical     
+002-0286-1 (thread    8) better     
+
+002-0287-1 (thread    6) identical     
+002-0287-1 (thread    6) better     
+
+002-0288-0 (thread    2) identical     
+002-0288-1 (thread    6) identical     
+002-0288-1 (thread    6) worse      
+
+002-0289-0 (thread    2) worse      
+
+002-0290-0 (thread    8) identical     
+002-0290-0 (thread    8) worse      
+
+002-0291-0 (thread    5) identical     
+002-0291-0 (thread    7) identical     
+002-0291-0 (thread    1) identical     
+002-0291-0 (thread    3) identical     
+002-0291-0 (thread    7) worse      
+
+002-0292-1 (thread    4) identical     
+002-0292-0 (thread    5) worse      
+
+002-0293-0 (thread    1) worse      
+
+002-0294-1 (thread    4) worse      
+
+002-0295-0 (thread    3) worse      
+
+002-0296-1 (thread    6) identical     
+002-0296-1 (thread    6) worse      
+
+Reached 2
+Segment   2/  2 1883-3693
+001-0000-1 (thread    8) identical     
+001-0000-1 (thread    8) worse      
+
+001-0001-0 (thread    1) identical     
+
+001-0002-0 (thread    3) identical     
+001-0002-0 (thread    3) worse      
+
+001-0003-0 (thread    2) identical     
+001-0003-0 (thread    2) worse      
+
+001-0004-1 (thread    5) identical     
+
+001-0005-1 (thread    7) identical     
+
+001-0006-1 (thread    6) identical     
+
+001-0007-1 (thread    1) identical     
+
+001-0008-1 (thread    2) identical     
+001-0008-1 (thread    2) worse      
+
+001-0009-0 (thread    4) identical     
+
+001-0010-0 (thread    8) identical     
+001-0010-0 (thread    3) identical     
+001-0010-0 (thread    5) identical     
+001-0010-0 (thread    6) identical     
+
+001-0011-1 (thread    7) identical     
+001-0011-0 (thread    3) worse      
+
+001-0012-0 (thread    8) worse      
+
+001-0012-0 (thread    5) worse      
+
+001-0014-1 (thread    7) worse      
+
+001-0015-0 (thread    2) identical     
+
+001-0016-1 (thread    1) identical     
+
+001-0017-1 (thread    3) identical     
+
+001-0018-0 (thread    8) identical     
+001-0018-0 (thread    8) worse      
+
+001-0019-0 (thread    6) identical     
+
+001-0020-1 (thread    2) identical     
+001-0020-1 (thread    2) worse      
+
+001-0021-1 (thread    4) identical     
+
+001-0022-0 (thread    1) identical     
+
+001-0023-1 (thread    3) identical     
+001-0023-1 (thread    5) identical     
+001-0023-1 (thread    3) worse      
+
+001-0024-1 (thread    5) worse      
+
+001-0025-0 (thread    7) identical     
+001-0025-0 (thread    7) worse      
+
+001-0026-1 (thread    4) identical     
+001-0026-1 (thread    4) worse      
+
+001-0027-0 (thread    1) identical     
+001-0027-0 (thread    1) worse      
+
+001-0028-0 (thread    8) identical     
+001-0028-0 (thread    8) worse      
+
+001-0029-1 (thread    7) identical     
+001-0029-1 (thread    7) worse      
+
+001-0030-0 (thread    2) identical     
+001-0030-0 (thread    2) worse      
+
+001-0031-1 (thread    3) identical     
+001-0031-1 (thread    3) worse      
+
+001-0032-0 (thread    5) identical     
+001-0032-0 (thread    5) worse      
+
+001-0033-1 (thread    6) identical     
+001-0033-1 (thread    6) worse      
+
+001-0034-0 (thread    4) identical     
+001-0034-0 (thread    4) worse      
+
+001-0035-1 (thread    1) identical     
+001-0035-1 (thread    3) identical     
+001-0035-0 (thread    2) identical     
+
+001-0036-1 (thread    1) worse      
+
+001-0037-1 (thread    3) worse      
+
+001-0038-1 (thread    7) identical     
+001-0038-1 (thread    7) worse      
+
+001-0039-1 (thread    6) identical     
+001-0039-1 (thread    6) worse      
+
+001-0040-0 (thread    8) identical     
+001-0040-0 (thread    8) worse      
+
+001-0041-0 (thread    1) identical     
+001-0041-0 (thread    1) worse      
+
+001-0042-1 (thread    2) identical     
+001-0042-1 (thread    2) worse      
+
+001-0043-0 (thread    5) identical     
+001-0043-0 (thread    5) better     
+
+001-0044-1 (thread    1) identical     
+001-0044-1 (thread    1) worse      
+
+001-0045-1 (thread    5) identical     
+001-0045-1 (thread    5) worse      
+
+001-0046-0 (thread    8) identical     
+001-0046-0 (thread    8) worse      
+
+001-0047-0 (thread    2) identical     
+001-0047-0 (thread    2) worse      
+
+001-0048-0 (thread    4) identical     
+001-0048-1 (thread    3) identical     
+001-0048-0 (thread    4) worse      
+
+001-0048-1 (thread    3) worse      
+
+001-0050-0 (thread    1) identical     
+
+001-0051-0 (thread    8) identical     
+001-0051-0 (thread    8) worse      
+
+001-0052-1 (thread    5) identical     
+
+001-0053-0 (thread    1) identical     
+001-0053-1 (thread    2) identical     
+001-0053-0 (thread    1) worse      
+
+001-0054-1 (thread    2) better     
+
+001-0055-0 (thread    2) identical     
+001-0055-0 (thread    2) worse      
+
+001-0056-1 (thread    3) identical     
+001-0056-1 (thread    3) worse      
+
+001-0057-0 (thread    5) identical     
+001-0057-1 (thread    8) identical     
+001-0057-1 (thread    8) worse      
+
+001-0058-0 (thread    5) worse      
+
+001-0059-0 (thread    3) identical     
+001-0059-0 (thread    3) better     
+
+001-0060-1 (thread    2) identical     
+001-0060-1 (thread    2) worse      
+
+001-0061-1 (thread    8) identical     
+001-0061-1 (thread    8) worse      
+
+001-0062-1 (thread    1) identical     
+001-0062-1 (thread    1) worse      
+
+001-0063-1 (thread    3) identical     
+001-0063-1 (thread    3) worse      
+
+001-0064-0 (thread    4) identical     
+001-0064-0 (thread    4) worse      
+
+001-0065-0 (thread    5) identical     
+001-0065-0 (thread    5) worse      
+
+001-0066-1 (thread    3) identical     
+001-0066-1 (thread    3) worse      
+
+001-0067-0 (thread    2) identical     
+001-0067-0 (thread    2) worse      
+
+001-0068-0 (thread    4) identical     
+001-0068-0 (thread    4) worse      
+
+001-0069-1 (thread    8) identical     
+001-0069-1 (thread    8) worse      
+
+001-0070-0 (thread    1) identical     
+001-0070-0 (thread    1) worse      
+
+001-0071-1 (thread    5) identical     
+001-0071-1 (thread    5) worse      
+
+001-0072-0 (thread    3) identical     
+001-0072-0 (thread    3) worse      
+
+001-0073-1 (thread    2) identical     
+001-0073-1 (thread    2) worse      
+
+001-0074-0 (thread    7) identical     
+001-0074-0 (thread    7) worse      
+
+001-0075-1 (thread    8) identical     
+001-0075-0 (thread    1) identical     
+001-0075-1 (thread    8) worse      
+
+001-0076-0 (thread    1) worse      
+
+001-0077-0 (thread    3) identical     
+001-0077-1 (thread    6) identical     
+001-0077-0 (thread    3) better     
+
+001-0078-1 (thread    6) worse      
+
+001-0079-0 (thread    6) identical     
+001-0079-0 (thread    6) worse      
+
+001-0080-0 (thread    4) identical     
+001-0080-0 (thread    4) worse      
+
+001-0081-1 (thread    5) identical     
+001-0081-0 (thread    7) identical     
+001-0081-1 (thread    5) worse      
+
+001-0082-0 (thread    7) better     
+
+001-0083-1 (thread    6) identical     
+001-0083-1 (thread    6) worse      
+
+001-0084-1 (thread    8) identical     
+001-0084-1 (thread    8) worse      
+
+001-0085-0 (thread    7) identical     
+001-0085-0 (thread    7) worse      
+
+001-0086-0 (thread    1) identical     
+001-0086-1 (thread    2) identical     
+001-0086-0 (thread    1) worse      
+
+001-0087-1 (thread    2) better     
+
+001-0088-1 (thread    2) identical     
+001-0088-1 (thread    2) worse      
+
+001-0089-1 (thread    5) identical     
+001-0089-1 (thread    5) worse      
+
+001-0090-0 (thread    8) identical     
+001-0090-0 (thread    8) worse      
+
+001-0091-1 (thread    3) identical     
+001-0091-1 (thread    3) worse      
+
+001-0092-1 (thread    7) identical     
+001-0092-1 (thread    7) worse      
+
+001-0093-0 (thread    2) identical     
+001-0093-1 (thread    6) identical     
+
+001-0094-0 (thread    2) better     
+
+001-0095-0 (thread    1) identical     
+001-0095-0 (thread    1) worse      
+
+001-0096-1 (thread    6) identical     
+001-0096-1 (thread    6) worse      
+
+001-0097-1 (thread    5) identical     
+001-0097-1 (thread    5) worse      
+
+001-0098-0 (thread    4) identical     
+001-0098-0 (thread    2) identical     
+001-0098-0 (thread    4) worse      
+
+001-0099-0 (thread    2) worse      
+
+001-0100-0 (thread    7) identical     
+
+001-0101-0 (thread    8) identical     
+001-0101-0 (thread    8) worse      
+
+001-0102-1 (thread    3) identical     
+001-0102-1 (thread    3) worse      
+
+001-0103-0 (thread    4) identical     
+001-0103-0 (thread    4) worse      
+
+001-0104-1 (thread    5) identical     
+001-0104-0 (thread    7) identical     
+
+001-0105-1 (thread    5) better     
+
+001-0106-1 (thread    8) identical     
+001-0106-1 (thread    8) worse      
+
+001-0107-0 (thread    6) identical     
+001-0107-0 (thread    6) worse      
+
+001-0108-1 (thread    5) identical     
+001-0108-1 (thread    5) worse      
+
+001-0109-1 (thread    1) identical     
+001-0109-1 (thread    1) worse      
+
+001-0110-1 (thread    6) identical     
+001-0110-0 (thread    3) identical     
+001-0110-1 (thread    6) worse      
+
+001-0111-0 (thread    3) worse      
+
+001-0112-1 (thread    4) identical     
+001-0112-1 (thread    4) worse      
+
+001-0113-0 (thread    5) identical     
+001-0113-1 (thread    2) identical     
+001-0113-0 (thread    5) worse      
+
+001-0114-0 (thread    7) identical     
+001-0114-1 (thread    2) worse      
+
+001-0115-0 (thread    8) identical     
+001-0115-0 (thread    7) worse      
+
+001-0116-0 (thread    8) better     
+
+001-0117-0 (thread    8) identical     
+001-0117-0 (thread    8) worse      
+
+001-0118-0 (thread    4) identical     
+001-0118-0 (thread    4) worse      
+
+001-0119-1 (thread    5) identical     
+
+001-0120-1 (thread    8) identical     
+001-0120-1 (thread    8) worse      
+
+001-0121-1 (thread    3) identical     
+001-0121-1 (thread    3) worse      
+
+001-0122-1 (thread    1) identical     
+001-0122-1 (thread    1) better     
+
+001-0123-1 (thread    7) identical     
+001-0123-1 (thread    7) worse      
+
+001-0124-0 (thread    2) identical     
+001-0124-0 (thread    2) worse      
+
+001-0125-0 (thread    1) identical     
+001-0125-0 (thread    1) worse      
+
+001-0126-0 (thread    6) identical     
+001-0126-0 (thread    4) identical     
+001-0126-0 (thread    6) worse      
+
+001-0127-0 (thread    4) worse      
+
+001-0128-1 (thread    5) identical     
+001-0128-1 (thread    5) worse      
+
+001-0129-0 (thread    8) identical     
+001-0129-0 (thread    8) better     
+
+001-0130-1 (thread    1) identical     
+001-0130-1 (thread    1) worse      
+
+001-0131-1 (thread    8) identical     
+001-0131-1 (thread    8) worse      
+
+001-0132-1 (thread    3) identical     
+001-0132-1 (thread    3) better     
+
+001-0133-0 (thread    2) identical     
+001-0133-1 (thread    7) identical     
+001-0133-0 (thread    2) worse      
+
+001-0134-1 (thread    7) worse      
+
+001-0135-1 (thread    4) identical     
+001-0135-1 (thread    4) worse      
+
+001-0136-0 (thread    3) identical     
+001-0136-0 (thread    3) worse      
+
+001-0137-1 (thread    2) identical     
+001-0137-1 (thread    2) worse      
+
+001-0138-0 (thread    1) identical     
+001-0138-0 (thread    6) identical     
+001-0138-0 (thread    1) worse      
+
+001-0139-0 (thread    6) worse      
+
+001-0140-0 (thread    5) identical     
+001-0140-0 (thread    5) better     
+
+001-0141-0 (thread    3) identical     
+001-0141-0 (thread    3) worse      
+
+001-0142-1 (thread    8) identical     
+001-0142-1 (thread    8) worse      
+
+001-0143-0 (thread    5) identical     
+001-0143-1 (thread    2) identical     
+001-0143-1 (thread    2) better     
+
+001-0144-0 (thread    5) worse      
+
+001-0145-1 (thread    2) identical     
+001-0145-1 (thread    2) worse      
+
+001-0146-1 (thread    6) identical     
+001-0146-0 (thread    5) identical     
+
+001-0147-1 (thread    6) worse      
+
+001-0148-1 (thread    3) identical     
+001-0148-1 (thread    3) worse      
+
+001-0149-0 (thread    1) identical     
+001-0149-0 (thread    1) better     
+
+001-0150-0 (thread    5) identical     
+001-0150-0 (thread    5) worse      
+
+001-0151-0 (thread    8) identical     
+001-0151-1 (thread    2) identical     
+001-0151-0 (thread    8) worse      
+
+001-0152-1 (thread    2) better     
+
+001-0153-1 (thread    1) identical     
+001-0153-1 (thread    1) worse      
+
+001-0154-1 (thread    6) identical     
+001-0154-1 (thread    6) better     
+
+001-0155-0 (thread    6) identical     
+001-0155-0 (thread    6) worse      
+
+001-0156-0 (thread    3) identical     
+
+001-0157-1 (thread    1) identical     
+001-0157-1 (thread    1) worse      
+
+001-0158-0 (thread    2) identical     
+001-0158-0 (thread    2) worse      
+
+001-0159-1 (thread    8) identical     
+001-0159-1 (thread    8) worse      
+
+001-0160-0 (thread    5) identical     
+001-0160-0 (thread    5) worse      
+
+001-0161-1 (thread    6) identical     
+001-0161-1 (thread    6) better     
+
+001-0162-0 (thread    2) identical     
+001-0162-0 (thread    2) worse      
+
+001-0163-1 (thread    6) identical     
+001-0163-1 (thread    6) worse      
+
+001-0164-1 (thread    8) identical     
+001-0164-1 (thread    8) worse      
+
+001-0165-0 (thread    3) identical     
+001-0165-0 (thread    3) worse      
+
+001-0166-1 (thread    1) identical     
+001-0166-1 (thread    1) worse      
+
+001-0167-0 (thread    5) identical     
+001-0167-0 (thread    5) worse      
+
+001-0168-0 (thread    2) identical     
+001-0168-0 (thread    2) worse      
+
+001-0169-1 (thread    4) identical     
+001-0169-1 (thread    4) better     
+
+001-0170-0 (thread    1) identical     
+001-0170-0 (thread    1) worse      
+
+001-0171-0 (thread    8) identical     
+001-0171-0 (thread    8) worse      
+
+001-0172-1 (thread    3) identical     
+001-0172-1 (thread    3) worse      
+
+001-0173-1 (thread    5) identical     
+001-0173-1 (thread    5) worse      
+
+001-0174-1 (thread    4) identical     
+001-0174-1 (thread    4) worse      
+
+001-0175-1 (thread    6) identical     
+
+001-0176-0 (thread    3) identical     
+001-0176-0 (thread    3) better     
+
+001-0177-1 (thread    8) identical     
+001-0177-1 (thread    8) worse      
+
+001-0178-0 (thread    3) identical     
+001-0178-0 (thread    3) worse      
+
+001-0179-1 (thread    5) identical     
+001-0179-1 (thread    5) worse      
+
+001-0180-1 (thread    6) identical     
+001-0180-1 (thread    6) worse      
+
+001-0181-0 (thread    1) identical     
+001-0181-0 (thread    2) identical     
+001-0181-0 (thread    2) better     
+
+001-0182-0 (thread    1) worse      
+
+001-0183-1 (thread    8) identical     
+001-0183-1 (thread    5) identical     
+001-0183-1 (thread    8) worse      
+
+001-0184-1 (thread    5) worse      
+
+001-0185-0 (thread    3) identical     
+001-0185-1 (thread    2) identical     
+001-0185-1 (thread    2) worse      
+
+001-0186-0 (thread    1) identical     
+001-0186-0 (thread    3) worse      
+
+001-0187-0 (thread    1) worse      
+
+001-0188-0 (thread    5) identical     
+001-0188-0 (thread    5) better     
+
+001-0189-0 (thread    3) identical     
+001-0189-0 (thread    3) worse      
+
+001-0190-1 (thread    2) identical     
+001-0190-1 (thread    8) identical     
+001-0190-1 (thread    2) worse      
+
+001-0190-1 (thread    8) worse      
+
+001-0192-1 (thread    1) identical     
+001-0192-1 (thread    1) worse      
+
+001-0193-0 (thread    4) identical     
+001-0193-0 (thread    6) identical     
+001-0193-0 (thread    4) worse      
+
+001-0194-0 (thread    5) identical     
+001-0194-0 (thread    5) worse      
+
+001-0195-0 (thread    6) worse      
+
+001-0196-1 (thread    3) identical     
+001-0196-1 (thread    3) better     
+
+001-0197-0 (thread    3) identical     
+001-0197-0 (thread    3) worse      
+
+001-0198-0 (thread    1) identical     
+001-0198-0 (thread    2) identical     
+001-0198-0 (thread    2) better     
+
+001-0199-0 (thread    1) worse      
+
+001-0200-1 (thread    1) identical     
+001-0200-0 (thread    2) identical     
+001-0200-1 (thread    1) worse      
+
+001-0201-0 (thread    2) worse      
+
+001-0202-0 (thread    5) identical     
+001-0202-0 (thread    5) worse      
+
+001-0203-1 (thread    4) identical     
+001-0203-1 (thread    4) worse      
+
+001-0204-1 (thread    3) identical     
+001-0204-1 (thread    3) worse      
+
+001-0205-1 (thread    2) identical     
+001-0205-1 (thread    2) worse      
+
+001-0206-1 (thread    2) identical     
+
+001-0207-1 (thread    8) identical     
+001-0207-1 (thread    8) better     
+
+001-0208-1 (thread    8) identical     
+001-0208-1 (thread    8) worse      
+
+001-0209-1 (thread    4) identical     
+001-0209-1 (thread    4) better     
+
+001-0210-0 (thread    2) identical     
+001-0210-0 (thread    2) worse      
+
+001-0211-0 (thread    1) identical     
+001-0211-0 (thread    3) identical     
+001-0211-0 (thread    1) worse      
+
+001-0212-0 (thread    8) identical     
+001-0212-1 (thread    4) identical     
+001-0212-1 (thread    4) worse      
+
+001-0213-0 (thread    8) worse      
+
+001-0214-0 (thread    3) worse      
+
+001-0215-0 (thread    2) identical     
+001-0215-1 (thread    8) identical     
+001-0215-1 (thread    8) worse      
+
+001-0216-0 (thread    2) worse      
+
+001-0217-0 (thread    4) identical     
+001-0217-0 (thread    5) identical     
+001-0217-0 (thread    4) worse      
+
+001-0218-0 (thread    5) worse      
+
+001-0219-1 (thread    1) identical     
+001-0219-0 (thread    3) identical     
+001-0219-0 (thread    3) worse      
+
+001-0220-1 (thread    1) worse      
+
+001-0221-1 (thread    6) identical     
+001-0221-1 (thread    6) better     
+
+001-0222-0 (thread    5) identical     
+001-0222-1 (thread    4) identical     
+001-0222-1 (thread    4) better     
+
+001-0223-0 (thread    5) worse      
+
+001-0224-1 (thread    5) identical     
+001-0224-1 (thread    5) worse      
+
+001-0225-1 (thread    3) identical     
+001-0225-1 (thread    3) worse      
+
+001-0226-1 (thread    6) identical     
+001-0226-1 (thread    6) worse      
+
+001-0227-0 (thread    1) identical     
+001-0227-0 (thread    1) worse      
+
+001-0228-0 (thread    5) identical     
+001-0228-0 (thread    5) worse      
+
+001-0229-0 (thread    4) identical     
+001-0229-1 (thread    8) identical     
+001-0229-1 (thread    3) identical     
+001-0229-1 (thread    3) worse      
+
+001-0230-0 (thread    4) worse      
+
+001-0231-1 (thread    8) worse      
+
+001-0232-1 (thread    1) identical     
+001-0232-1 (thread    1) worse      
+
+001-0233-0 (thread    2) identical     
+001-0233-0 (thread    2) better     
+
+001-0234-1 (thread    2) identical     
+001-0234-1 (thread    2) better     
+
+001-0235-0 (thread    2) identical     
+001-0235-0 (thread    2) better     
+
+001-0236-0 (thread    1) identical     
+001-0236-0 (thread    5) identical     
+001-0236-0 (thread    1) worse      
+
+001-0237-0 (thread    5) worse      
+
+001-0238-1 (thread    2) identical     
+001-0238-1 (thread    2) worse      
+
+001-0239-0 (thread    6) identical     
+001-0239-0 (thread    6) worse      
+
+001-0240-1 (thread    3) identical     
+001-0240-1 (thread    5) identical     
+001-0240-1 (thread    5) worse      
+
+001-0241-1 (thread    3) worse      
+
+001-0242-1 (thread    8) identical     
+001-0242-0 (thread    4) identical     
+001-0242-0 (thread    2) identical     
+001-0242-0 (thread    2) better     
+
+001-0243-1 (thread    8) worse      
+
+001-0244-0 (thread    4) worse      
+
+001-0245-1 (thread    8) identical     
+001-0245-1 (thread    8) worse      
+
+001-0246-0 (thread    2) identical     
+001-0246-0 (thread    2) worse      
+
+001-0247-0 (thread    4) identical     
+001-0247-1 (thread    3) identical     
+001-0247-0 (thread    4) worse      
+
+001-0248-1 (thread    3) worse      
+
+001-0249-1 (thread    6) identical     
+001-0249-1 (thread    6) worse      
+
+001-0250-0 (thread    5) identical     
+001-0250-0 (thread    5) worse      
+
+001-0251-0 (thread    3) identical     
+001-0251-0 (thread    3) worse      
+
+001-0252-0 (thread    1) identical     
+001-0252-1 (thread    8) identical     
+001-0252-1 (thread    8) worse      
+
+001-0253-1 (thread    4) identical     
+001-0253-1 (thread    4) worse      
+
+001-0254-0 (thread    1) worse      
+
+001-0255-0 (thread    2) identical     
+001-0255-0 (thread    5) identical     
+001-0255-0 (thread    8) identical     
+001-0255-0 (thread    8) worse      
+
+001-0256-0 (thread    5) worse      
+
+001-0257-1 (thread    4) identical     
+001-0257-0 (thread    7) identical     
+001-0257-0 (thread    7) better     
+
+001-0258-1 (thread    4) worse      
+
+001-0259-0 (thread    2) worse      
+
+001-0260-1 (thread    7) identical     
+001-0260-1 (thread    2) identical     
+001-0260-1 (thread    7) worse      
+
+001-0261-1 (thread    2) worse      
+
+001-0262-1 (thread    8) identical     
+001-0262-1 (thread    8) worse      
+
+001-0263-0 (thread    5) identical     
+001-0263-1 (thread    3) identical     
+001-0263-0 (thread    5) worse      
+
+001-0264-1 (thread    3) worse      
+
+001-0265-1 (thread    6) identical     
+001-0265-0 (thread    4) identical     
+001-0265-0 (thread    7) identical     
+001-0265-1 (thread    5) identical     
+001-0265-0 (thread    7) worse      
+
+001-0266-1 (thread    5) worse      
+
+001-0267-0 (thread    1) identical     
+001-0267-0 (thread    4) worse      
+
+001-0268-1 (thread    6) worse      
+
+001-0269-1 (thread    2) identical     
+001-0269-0 (thread    8) identical     
+001-0269-0 (thread    1) worse      
+
+001-0270-1 (thread    7) identical     
+001-0270-1 (thread    2) worse      
+
+001-0271-1 (thread    7) worse      
+
+001-0272-0 (thread    8) better     
+
+001-0273-1 (thread    4) identical     
+001-0273-1 (thread    4) better     
+
+001-0274-1 (thread    7) identical     
+001-0274-0 (thread    5) identical     
+001-0274-1 (thread    7) worse      
+
+001-0275-0 (thread    2) identical     
+001-0275-0 (thread    5) worse      
+
+001-0276-0 (thread    2) worse      
+
+001-0277-0 (thread    3) identical     
+
+001-0278-0 (thread    6) identical     
+
+001-0279-1 (thread    1) identical     
+001-0279-0 (thread    8) identical     
+001-0279-1 (thread    4) identical     
+001-0279-1 (thread    1) worse      
+
+001-0280-1 (thread    5) identical     
+001-0280-1 (thread    4) better     
+
+001-0281-1 (thread    5) worse      
+
+001-0282-0 (thread    8) worse      
+
+001-0283-1 (thread    3) identical     
+001-0283-1 (thread    3) worse      
+
+001-0284-1 (thread    5) identical     
+001-0284-0 (thread    2) identical     
+001-0284-1 (thread    5) worse      
+
+001-0285-0 (thread    4) identical     
+001-0285-0 (thread    7) identical     
+001-0285-0 (thread    2) worse      
+
+001-0286-0 (thread    7) worse      
+
+001-0287-0 (thread    4) worse      
+
+001-0288-1 (thread    2) identical     
+001-0288-1 (thread    2) worse      
+
+001-0289-1 (thread    3) identical     
+001-0289-0 (thread    5) identical     
+001-0289-1 (thread    3) worse      
+
+001-0290-0 (thread    5) worse      
+
+001-0291-1 (thread    1) identical     
+001-0291-1 (thread    1) worse      
+
+001-0292-1 (thread    4) identical     
+001-0292-0 (thread    6) identical     
+001-0292-0 (thread    8) identical     
+001-0292-1 (thread    4) worse      
+
+001-0293-0 (thread    6) worse      
+
+001-0294-0 (thread    7) identical     
+001-0294-0 (thread    8) worse      
+
+001-0295-1 (thread    2) identical     
+001-0295-1 (thread    2) worse      
+
+001-0296-0 (thread    7) worse      
+
+002-0000-0 (thread    8) identical     
+002-0000-1 (thread    5) identical     
+002-0000-0 (thread    8) worse      
+
+002-0001-1 (thread    5) worse      
+
+002-0002-1 (thread    3) identical     
+
+002-0003-1 (thread    2) identical     
+
+002-0004-0 (thread    4) identical     
+002-0004-0 (thread    4) better     
+
+002-0005-0 (thread    6) identical     
+002-0005-0 (thread    6) worse      
+
+002-0006-0 (thread    4) identical     
+002-0006-0 (thread    4) worse      
+
+002-0007-1 (thread    5) identical     
+
+002-0008-0 (thread    3) identical     
+002-0008-0 (thread    3) better     
+
+002-0009-0 (thread    8) identical     
+002-0009-0 (thread    8) worse      
+
+002-0010-0 (thread    3) identical     
+
+002-0011-0 (thread    1) identical     
+
+002-0012-1 (thread    7) identical     
+
+002-0013-1 (thread    2) identical     
+002-0013-1 (thread    2) worse      
+
+002-0014-0 (thread    4) identical     
+
+002-0015-1 (thread    8) identical     
+
+002-0016-1 (thread    5) identical     
+
+002-0017-1 (thread    6) identical     
+002-0017-1 (thread    6) worse      
+
+002-0018-0 (thread    3) identical     
+
+002-0019-1 (thread    1) identical     
+
+002-0020-0 (thread    4) identical     
+002-0020-0 (thread    4) better     
+
+002-0021-0 (thread    4) identical     
+
+002-0022-1 (thread    6) identical     
+002-0022-1 (thread    2) identical     
+002-0022-1 (thread    6) worse      
+
+002-0023-1 (thread    2) worse      
+
+002-0024-0 (thread    7) identical     
+002-0024-0 (thread    7) worse      
+
+002-0025-1 (thread    8) identical     
+002-0025-1 (thread    8) better     
+
+002-0026-1 (thread    8) identical     
+002-0026-1 (thread    8) worse      
+
+002-0027-0 (thread    5) identical     
+
+002-0028-0 (thread    7) identical     
+002-0028-0 (thread    7) worse      
+
+002-0029-1 (thread    4) identical     
+
+002-0030-1 (thread    1) identical     
+002-0030-1 (thread    1) worse      
+
+002-0031-0 (thread    6) identical     
+002-0031-0 (thread    6) worse      
+
+002-0032-0 (thread    3) identical     
+002-0032-0 (thread    3) better     
+
+002-0033-1 (thread    5) identical     
+002-0033-1 (thread    5) worse      
+
+002-0034-1 (thread    6) identical     
+002-0034-1 (thread    6) worse      
+
+002-0035-0 (thread    8) identical     
+002-0035-0 (thread    8) worse      
+
+002-0036-0 (thread    3) identical     
+002-0036-0 (thread    3) worse      
+
+002-0037-0 (thread    7) identical     
+002-0037-0 (thread    7) worse      
+
+002-0038-1 (thread    2) identical     
+002-0038-0 (thread    1) identical     
+
+002-0039-1 (thread    2) worse      
+
+002-0040-1 (thread    4) identical     
+002-0040-1 (thread    4) worse      
+
+002-0041-1 (thread    5) identical     
+002-0041-1 (thread    5) worse      
+
+002-0042-0 (thread    6) identical     
+002-0042-0 (thread    6) worse      
+
+002-0043-1 (thread    7) identical     
+002-0043-1 (thread    7) worse      
+
+002-0044-0 (thread    4) identical     
+002-0044-0 (thread    3) identical     
+002-0044-0 (thread    4) worse      
+
+002-0045-0 (thread    3) worse      
+
+002-0046-1 (thread    8) identical     
+002-0046-1 (thread    8) worse      
+
+002-0047-1 (thread    5) identical     
+002-0047-1 (thread    5) worse      
+
+002-0048-0 (thread    4) identical     
+
+002-0049-0 (thread    8) identical     
+002-0049-0 (thread    6) identical     
+002-0049-0 (thread    6) worse      
+
+002-0050-0 (thread    8) worse      
+
+002-0051-1 (thread    7) identical     
+002-0051-1 (thread    7) worse      
+
+002-0052-1 (thread    3) identical     
+
+002-0053-1 (thread    5) identical     
+002-0053-1 (thread    5) worse      
+
+002-0054-0 (thread    8) identical     
+002-0054-0 (thread    8) better     
+
+002-0055-1 (thread    6) identical     
+002-0055-1 (thread    6) worse      
+
+002-0056-0 (thread    3) identical     
+002-0056-0 (thread    3) better     
+
+002-0057-0 (thread    3) identical     
+
+002-0058-0 (thread    4) identical     
+002-0058-0 (thread    4) worse      
+
+002-0059-0 (thread    8) identical     
+002-0059-0 (thread    8) worse      
+
+002-0060-1 (thread    3) identical     
+002-0060-1 (thread    3) worse      
+
+002-0061-1 (thread    7) identical     
+002-0061-1 (thread    7) better     
+
+002-0062-1 (thread    5) identical     
+002-0062-1 (thread    7) identical     
+002-0062-1 (thread    5) worse      
+
+002-0063-1 (thread    7) worse      
+
+002-0064-0 (thread    4) identical     
+
+002-0065-1 (thread    8) identical     
+002-0065-1 (thread    8) worse      
+
+002-0066-1 (thread    6) identical     
+002-0066-1 (thread    6) worse      
+
+002-0067-0 (thread    3) identical     
+002-0067-0 (thread    6) identical     
+002-0067-0 (thread    4) identical     
+002-0067-0 (thread    3) worse      
+
+002-0068-0 (thread    6) worse      
+
+002-0069-0 (thread    4) worse      
+
+002-0070-1 (thread    8) identical     
+002-0070-1 (thread    8) worse      
+
+002-0071-0 (thread    5) identical     
+002-0071-0 (thread    5) worse      
+
+002-0072-1 (thread    3) identical     
+002-0072-1 (thread    3) worse      
+
+002-0073-0 (thread    1) identical     
+002-0073-0 (thread    1) worse      
+
+002-0074-0 (thread    8) identical     
+002-0074-1 (thread    5) identical     
+002-0074-1 (thread    5) worse      
+
+002-0075-0 (thread    8) worse      
+
+002-0076-1 (thread    7) identical     
+002-0076-1 (thread    7) worse      
+
+002-0077-1 (thread    2) identical     
+002-0077-1 (thread    2) worse      
+
+002-0078-0 (thread    5) identical     
+002-0078-0 (thread    5) worse      
+
+002-0079-1 (thread    8) identical     
+002-0079-1 (thread    8) worse      
+
+002-0080-0 (thread    3) identical     
+002-0080-0 (thread    3) worse      
+
+002-0081-0 (thread    7) identical     
+002-0081-0 (thread    7) worse      
+
+002-0082-1 (thread    1) identical     
+002-0082-1 (thread    1) worse      
+
+002-0083-0 (thread    5) identical     
+002-0083-0 (thread    5) worse      
+
+002-0084-1 (thread    2) identical     
+002-0084-1 (thread    2) worse      
+
+002-0085-0 (thread    6) identical     
+002-0085-0 (thread    6) better     
+
+002-0086-0 (thread    1) identical     
+002-0086-0 (thread    1) better     
+
+002-0087-0 (thread    1) identical     
+002-0087-0 (thread    1) worse      
+
+002-0088-1 (thread    5) identical     
+
+002-0089-1 (thread    7) identical     
+002-0089-1 (thread    7) worse      
+
+002-0090-1 (thread    1) identical     
+002-0090-1 (thread    1) worse      
+
+002-0091-0 (thread    3) identical     
+002-0091-0 (thread    3) worse      
+
+002-0092-1 (thread    6) identical     
+002-0092-1 (thread    6) worse      
+
+002-0093-1 (thread    8) identical     
+002-0093-1 (thread    8) worse      
+
+002-0094-0 (thread    2) identical     
+002-0094-0 (thread    2) worse      
+
+002-0095-0 (thread    5) identical     
+002-0095-0 (thread    5) worse      
+
+002-0096-1 (thread    4) identical     
+002-0096-1 (thread    4) worse      
+
+002-0097-1 (thread    8) identical     
+002-0097-1 (thread    8) worse      
+
+002-0098-0 (thread    6) identical     
+
+002-0099-1 (thread    7) identical     
+002-0099-1 (thread    7) worse      
+
+002-0100-1 (thread    3) identical     
+002-0100-1 (thread    3) worse      
+
+002-0101-0 (thread    4) identical     
+002-0101-0 (thread    4) worse      
+
+002-0102-0 (thread    1) identical     
+002-0102-0 (thread    6) identical     
+002-0102-0 (thread    1) worse      
+
+002-0103-0 (thread    6) worse      
+
+002-0104-0 (thread    2) identical     
+002-0104-0 (thread    2) worse      
+
+002-0105-1 (thread    5) identical     
+002-0105-1 (thread    5) worse      
+
+002-0106-1 (thread    8) identical     
+002-0106-1 (thread    8) worse      
+
+002-0107-1 (thread    7) identical     
+002-0107-1 (thread    7) worse      
+
+002-0108-0 (thread    3) identical     
+
+002-0109-1 (thread    6) identical     
+002-0109-1 (thread    6) better     
+
+002-0110-1 (thread    4) identical     
+002-0110-1 (thread    5) identical     
+002-0110-1 (thread    4) worse      
+
+002-0111-1 (thread    5) better     
+
+002-0112-1 (thread    6) identical     
+002-0112-1 (thread    6) worse      
+
+002-0113-0 (thread    8) identical     
+
+002-0114-1 (thread    5) identical     
+002-0114-1 (thread    5) worse      
+
+002-0115-1 (thread    7) identical     
+002-0115-0 (thread    1) identical     
+002-0115-1 (thread    7) worse      
+
+002-0116-0 (thread    1) worse      
+
+002-0117-0 (thread    3) identical     
+002-0117-0 (thread    3) worse      
+
+002-0118-0 (thread    6) identical     
+002-0118-0 (thread    6) worse      
+
+002-0119-0 (thread    2) identical     
+002-0119-0 (thread    4) identical     
+002-0119-1 (thread    3) identical     
+002-0119-0 (thread    4) worse      
+
+002-0120-1 (thread    3) better     
+
+002-0121-0 (thread    2) worse      
+
+002-0122-0 (thread    3) identical     
+002-0122-0 (thread    3) worse      
+
+002-0123-0 (thread    1) identical     
+002-0123-0 (thread    1) worse      
+
+002-0124-1 (thread    2) identical     
+002-0124-1 (thread    2) worse      
+
+002-0125-1 (thread    8) identical     
+
+002-0126-0 (thread    3) identical     
+002-0126-0 (thread    3) worse      
+
+002-0127-1 (thread    1) identical     
+002-0127-1 (thread    1) worse      
+
+002-0128-0 (thread    5) identical     
+
+002-0129-1 (thread    8) identical     
+002-0129-1 (thread    8) worse      
+
+002-0130-0 (thread    2) identical     
+002-0130-1 (thread    7) identical     
+002-0130-0 (thread    2) worse      
+
+002-0131-1 (thread    7) worse      
+
+002-0132-0 (thread    6) identical     
+002-0132-1 (thread    4) identical     
+002-0132-0 (thread    6) worse      
+
+002-0133-1 (thread    4) worse      
+
+002-0134-0 (thread    3) identical     
+002-0134-0 (thread    3) worse      
+
+002-0135-0 (thread    5) identical     
+002-0135-0 (thread    5) worse      
+
+002-0136-1 (thread    1) identical     
+002-0136-1 (thread    1) worse      
+
+002-0137-1 (thread    4) identical     
+002-0137-1 (thread    4) worse      
+
+002-0138-0 (thread    2) identical     
+002-0138-0 (thread    2) worse      
+
+002-0139-0 (thread    6) identical     
+002-0139-1 (thread    7) identical     
+002-0139-1 (thread    7) worse      
+
+002-0140-1 (thread    8) identical     
+002-0140-1 (thread    8) better     
+
+002-0141-0 (thread    6) worse      
+
+002-0142-1 (thread    6) identical     
+002-0142-1 (thread    6) worse      
+
+002-0143-0 (thread    8) identical     
+002-0143-0 (thread    1) identical     
+002-0143-0 (thread    1) worse      
+
+002-0144-0 (thread    8) worse      
+
+002-0145-1 (thread    4) identical     
+002-0145-1 (thread    4) better     
+
+002-0146-1 (thread    4) identical     
+
+002-0147-1 (thread    1) identical     
+002-0147-1 (thread    7) identical     
+002-0147-1 (thread    7) better     
+
+002-0148-1 (thread    1) worse      
+
+002-0149-0 (thread    4) identical     
+002-0149-0 (thread    4) better     
+
+002-0150-1 (thread    4) identical     
+002-0150-1 (thread    4) worse      
+
+002-0151-0 (thread    6) identical     
+002-0151-0 (thread    6) worse      
+
+002-0152-0 (thread    8) identical     
+
+002-0153-0 (thread    2) identical     
+002-0153-1 (thread    7) identical     
+002-0153-1 (thread    7) worse      
+
+002-0154-0 (thread    2) worse      
+
+002-0155-0 (thread    1) identical     
+
+002-0156-0 (thread    8) identical     
+002-0156-0 (thread    8) worse      
+
+002-0157-0 (thread    4) identical     
+002-0157-0 (thread    4) better     
+
+002-0158-1 (thread    7) identical     
+002-0158-1 (thread    7) better     
+
+002-0159-1 (thread    1) identical     
+002-0159-1 (thread    1) worse      
+
+002-0160-1 (thread    4) identical     
+002-0160-1 (thread    4) better     
+
+002-0161-0 (thread    7) identical     
+002-0161-0 (thread    7) worse      
+
+002-0162-0 (thread    4) identical     
+002-0162-0 (thread    4) worse      
+
+002-0163-0 (thread    2) identical     
+002-0163-0 (thread    2) worse      
+
+002-0164-0 (thread    8) identical     
+002-0164-0 (thread    8) better     
+
+002-0165-0 (thread    8) identical     
+002-0165-0 (thread    8) better     
+
+002-0166-0 (thread    4) identical     
+002-0166-0 (thread    4) worse      
+
+002-0167-1 (thread    7) identical     
+002-0167-1 (thread    7) worse      
+
+002-0168-1 (thread    6) identical     
+002-0168-1 (thread    6) worse      
+
+002-0169-1 (thread    1) identical     
+002-0169-1 (thread    1) worse      
+
+002-0170-1 (thread    2) identical     
+
+002-0171-1 (thread    8) identical     
+002-0171-1 (thread    8) better     
+
+002-0172-1 (thread    8) identical     
+002-0172-1 (thread    8) worse      
+
+002-0173-0 (thread    4) identical     
+002-0173-0 (thread    4) worse      
+
+002-0174-1 (thread    7) identical     
+002-0174-1 (thread    7) worse      
+
+002-0175-0 (thread    8) identical     
+002-0175-0 (thread    8) better     
+
+002-0176-1 (thread    1) identical     
+002-0176-1 (thread    1) worse      
+
+002-0177-0 (thread    2) identical     
+002-0177-1 (thread    8) identical     
+002-0177-1 (thread    8) worse      
+
+002-0178-1 (thread    4) identical     
+002-0178-1 (thread    4) worse      
+
+002-0179-0 (thread    6) identical     
+002-0179-0 (thread    2) worse      
+
+002-0180-0 (thread    6) worse      
+
+002-0181-1 (thread    5) identical     
+002-0181-1 (thread    5) better     
+
+002-0182-1 (thread    8) identical     
+002-0182-1 (thread    5) identical     
+002-0182-1 (thread    8) worse      
+
+002-0183-0 (thread    1) identical     
+002-0183-1 (thread    5) worse      
+
+002-0184-0 (thread    1) worse      
+
+002-0185-1 (thread    2) identical     
+002-0185-1 (thread    2) worse      
+
+002-0186-0 (thread    4) identical     
+002-0186-0 (thread    4) worse      
+
+002-0187-0 (thread    7) identical     
+002-0187-0 (thread    7) worse      
+
+002-0188-0 (thread    6) identical     
+002-0188-1 (thread    5) identical     
+002-0188-0 (thread    1) identical     
+002-0188-1 (thread    5) worse      
+
+002-0189-0 (thread    1) worse      
+
+002-0190-1 (thread    2) identical     
+002-0190-1 (thread    2) better     
+
+002-0191-0 (thread    6) worse      
+
+002-0192-0 (thread    4) identical     
+002-0192-0 (thread    4) worse      
+
+002-0193-0 (thread    2) identical     
+002-0193-0 (thread    2) worse      
+
+002-0194-1 (thread    1) identical     
+002-0194-1 (thread    6) identical     
+002-0194-1 (thread    1) worse      
+
+002-0195-1 (thread    6) worse      
+
+002-0196-1 (thread    7) identical     
+
+002-0197-0 (thread    8) identical     
+002-0197-0 (thread    8) worse      
+
+002-0198-1 (thread    2) identical     
+002-0198-0 (thread    5) identical     
+002-0198-1 (thread    2) worse      
+
+002-0199-0 (thread    4) identical     
+002-0199-0 (thread    5) worse      
+
+002-0200-0 (thread    4) worse      
+
+002-0201-0 (thread    1) identical     
+002-0201-0 (thread    1) better     
+
+002-0202-1 (thread    8) identical     
+002-0202-1 (thread    8) worse      
+
+002-0203-1 (thread    1) identical     
+002-0203-1 (thread    1) worse      
+
+002-0204-0 (thread    7) identical     
+002-0204-0 (thread    7) better     
+
+002-0205-0 (thread    2) identical     
+002-0205-0 (thread    2) worse      
+
+002-0206-0 (thread    7) identical     
+002-0206-0 (thread    7) worse      
+
+002-0207-1 (thread    5) identical     
+002-0207-1 (thread    5) better     
+
+002-0208-1 (thread    5) identical     
+002-0208-1 (thread    5) better     
+
+002-0209-1 (thread    2) identical     
+
+002-0210-0 (thread    7) identical     
+002-0210-1 (thread    1) identical     
+002-0210-0 (thread    7) worse      
+
+002-0211-1 (thread    1) worse      
+
+002-0212-0 (thread    5) identical     
+002-0212-0 (thread    5) better     
+
+002-0213-0 (thread    5) identical     
+002-0213-0 (thread    5) worse      
+
+002-0214-1 (thread    2) identical     
+002-0214-1 (thread    2) worse      
+
+002-0215-0 (thread    8) identical     
+002-0215-0 (thread    8) worse      
+
+002-0216-0 (thread    7) identical     
+002-0216-0 (thread    4) identical     
+002-0216-0 (thread    7) worse      
+
+002-0217-0 (thread    4) worse      
+
+002-0218-1 (thread    5) identical     
+002-0218-1 (thread    5) worse      
+
+002-0219-1 (thread    1) identical     
+002-0219-1 (thread    1) worse      
+
+002-0220-0 (thread    2) identical     
+002-0220-0 (thread    2) worse      
+
+002-0221-0 (thread    5) identical     
+002-0221-0 (thread    5) worse      
+
+002-0222-1 (thread    4) identical     
+002-0222-1 (thread    4) better     
+
+002-0223-1 (thread    1) identical     
+002-0223-1 (thread    1) worse      
+
+002-0224-0 (thread    2) identical     
+002-0224-0 (thread    2) worse      
+
+002-0225-0 (thread    4) identical     
+002-0225-1 (thread    8) identical     
+002-0225-1 (thread    1) identical     
+002-0225-1 (thread    1) worse      
+
+002-0226-0 (thread    4) worse      
+
+002-0227-1 (thread    5) identical     
+002-0227-1 (thread    8) worse      
+
+002-0228-1 (thread    5) worse      
+
+002-0229-0 (thread    2) identical     
+002-0229-0 (thread    2) worse      
+
+002-0230-1 (thread    6) identical     
+002-0230-1 (thread    6) worse      
+
+002-0231-1 (thread    1) identical     
+002-0231-1 (thread    1) better     
+
+002-0232-0 (thread    5) identical     
+002-0232-0 (thread    5) worse      
+
+002-0233-1 (thread    8) identical     
+002-0233-1 (thread    8) worse      
+
+002-0234-1 (thread    1) identical     
+002-0234-0 (thread    4) identical     
+002-0234-0 (thread    4) worse      
+
+002-0235-1 (thread    1) worse      
+
+002-0236-0 (thread    5) identical     
+002-0236-1 (thread    2) identical     
+002-0236-0 (thread    5) worse      
+
+002-0237-1 (thread    8) identical     
+002-0237-1 (thread    8) worse      
+
+002-0238-1 (thread    2) worse      
+
+002-0239-0 (thread    6) identical     
+002-0239-0 (thread    7) identical     
+002-0239-0 (thread    7) worse      
+
+002-0240-0 (thread    6) worse      
+
+002-0241-1 (thread    8) identical     
+002-0241-1 (thread    8) worse      
+
+002-0242-1 (thread    1) identical     
+002-0242-0 (thread    4) identical     
+002-0242-1 (thread    1) worse      
+
+002-0243-0 (thread    3) identical     
+002-0243-0 (thread    4) worse      
+
+002-0244-0 (thread    3) better     
+
+002-0245-0 (thread    2) identical     
+002-0245-0 (thread    2) better     
+
+002-0246-1 (thread    8) identical     
+002-0246-1 (thread    8) worse      
+
+002-0247-0 (thread    3) identical     
+002-0247-1 (thread    4) identical     
+002-0247-1 (thread    4) worse      
+
+002-0248-0 (thread    3) worse      
+
+002-0249-0 (thread    1) identical     
+002-0249-1 (thread    2) identical     
+002-0249-0 (thread    1) worse      
+
+002-0250-1 (thread    2) better     
+
+002-0251-1 (thread    7) identical     
+002-0251-1 (thread    7) worse      
+
+002-0252-0 (thread    6) identical     
+002-0252-0 (thread    6) worse      
+
+002-0253-0 (thread    3) identical     
+002-0253-1 (thread    4) identical     
+002-0253-0 (thread    3) worse      
+
+002-0254-1 (thread    4) worse      
+
+002-0255-0 (thread    2) identical     
+002-0255-0 (thread    2) worse      
+
+002-0256-0 (thread    6) identical     
+002-0256-0 (thread    6) worse      
+
+002-0257-0 (thread    5) identical     
+
+002-0258-1 (thread    3) identical     
+002-0258-1 (thread    3) worse      
+
+002-0259-1 (thread    2) identical     
+002-0259-1 (thread    2) worse      
+
+002-0260-1 (thread    7) identical     
+002-0260-1 (thread    1) identical     
+
+002-0261-1 (thread    7) worse      
+
+002-0262-0 (thread    8) identical     
+
+002-0263-1 (thread    2) identical     
+002-0263-1 (thread    2) worse      
+
+002-0264-0 (thread    4) identical     
+
+002-0265-1 (thread    5) identical     
+002-0265-1 (thread    5) better     
+
+002-0266-1 (thread    2) identical     
+002-0266-1 (thread    2) worse      
+
+002-0267-1 (thread    5) identical     
+002-0267-1 (thread    5) worse      
+
+002-0268-0 (thread    1) identical     
+002-0268-0 (thread    1) worse      
+
+002-0269-0 (thread    6) identical     
+002-0269-0 (thread    6) better     
+
+002-0270-1 (thread    5) identical     
+002-0270-1 (thread    5) worse      
+
+002-0271-0 (thread    2) identical     
+002-0271-0 (thread    2) worse      
+
+002-0272-1 (thread    7) identical     
+002-0272-0 (thread    3) identical     
+
+002-0273-1 (thread    6) identical     
+002-0273-0 (thread    4) identical     
+
+002-0274-1 (thread    7) worse      
+
+002-0275-0 (thread    5) identical     
+002-0275-0 (thread    8) identical     
+
+002-0276-0 (thread    5) worse      
+
+002-0277-1 (thread    6) worse      
+
+002-0278-1 (thread    2) identical     
+002-0278-0 (thread    1) identical     
+
+002-0279-1 (thread    2) worse      
+
+002-0280-1 (thread    6) identical     
+
+002-0281-1 (thread    8) identical     
+002-0281-1 (thread    8) worse      
+
+002-0282-0 (thread    5) identical     
+002-0282-0 (thread    7) identical     
+002-0282-0 (thread    7) better     
+
+002-0283-0 (thread    5) worse      
+
+002-0284-1 (thread    8) identical     
+002-0284-1 (thread    8) worse      
+
+002-0285-1 (thread    5) identical     
+002-0285-0 (thread    6) identical     
+
+002-0286-1 (thread    5) worse      
+
+002-0287-0 (thread    3) identical     
+002-0287-1 (thread    2) identical     
+002-0287-1 (thread    2) worse      
+
+002-0288-1 (thread    6) identical     
+002-0288-1 (thread    6) worse      
+
+002-0289-1 (thread    4) identical     
+002-0289-1 (thread    4) worse      
+
+002-0290-0 (thread    3) worse      
+
+002-0291-0 (thread    8) identical     
+002-0291-0 (thread    7) identical     
+002-0291-0 (thread    1) identical     
+002-0291-0 (thread    8) worse      
+
+002-0292-0 (thread    7) worse      
+
+002-0293-0 (thread    1) worse      
+
+002-0294-1 (thread    2) identical     
+002-0294-1 (thread    2) better     
+
+002-0295-1 (thread    6) identical     
+002-0295-1 (thread    6) better     
+
+002-0296-0 (thread    5) identical     
+002-0296-0 (thread    5) worse      
+
+Reached 2
+done
+dvtditr (aa) Version 7.526
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+8 thread(s)
+
+
+Strategy:
+ FFT-NS-i (Standard)
+ Iterative refinement method (max. 2 iterations)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+
+Aligned: 150 sequences
+IQ-TREE version 3.0.1 for MacOS ARM 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    Sebastians-MacBook-Air.local (SSE4.2, 24 GB RAM)
+Command: iqtree -s /Users/scorrea/Documents/proteomics_AT/04_alignment/all_WRKY_aln.fa -m TEST -B 1000 -T AUTO --prefix /Users/scorrea/Documents/proteomics_AT/05_iqtree/WRKY_3spp --redo
+Seed:    692176 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Mar  5 22:45:49 2026
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file /Users/scorrea/Documents/proteomics_AT/04_alignment/all_WRKY_aln.fa ... Fasta format detected
+Reading fasta file: done in 0.0044322 secs using 88.67% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00322294 secs using 79.96% CPU
+Alignment has 150 sequences with 3729 columns, 2692 distinct patterns
+1300 parsimony-informative, 1067 singleton sites, 1362 constant sites
+WARNING: Some sequence names are changed as follows:
+AT_AT2G37260.1|PACid:19638141 -> AT_AT2G37260.1|PACid_19638141
+AT_AT2G40750.1|PACid:19638309 -> AT_AT2G40750.1|PACid_19638309
+AT_AT2G44745.1|PACid:19638720 -> AT_AT2G44745.1|PACid_19638720
+AT_AT2G03340.1|PACid:19638813 -> AT_AT2G03340.1|PACid_19638813
+AT_AT2G47260.1|PACid:19638986 -> AT_AT2G47260.1|PACid_19638986
+AT_AT2G25000.1|PACid:19639530 -> AT_AT2G25000.1|PACid_19639530
+AT_AT2G46130.1|PACid:19639763 -> AT_AT2G46130.1|PACid_19639763
+AT_AT2G34830.1|PACid:19639979 -> AT_AT2G34830.1|PACid_19639979
+AT_AT2G38470.1|PACid:19640205 -> AT_AT2G38470.1|PACid_19640205
+AT_AT2G30590.1|PACid:19640610 -> AT_AT2G30590.1|PACid_19640610
+AT_AT2G24570.1|PACid:19640773 -> AT_AT2G24570.1|PACid_19640773
+AT_AT2G46400.1|PACid:19641583 -> AT_AT2G46400.1|PACid_19641583
+AT_AT2G30250.1|PACid:19641915 -> AT_AT2G30250.1|PACid_19641915
+AT_AT2G40740.1|PACid:19642333 -> AT_AT2G40740.1|PACid_19642333
+AT_AT2G04880.1|PACid:19642396 -> AT_AT2G04880.1|PACid_19642396
+AT_AT2G23320.1|PACid:19643488 -> AT_AT2G23320.1|PACid_19643488
+AT_AT2G21900.1|PACid:19643565 -> AT_AT2G21900.1|PACid_19643565
+AT_AT4G12020.2|PACid:19644332 -> AT_AT4G12020.2|PACid_19644332
+AT_AT4G31800.1|PACid:19644902 -> AT_AT4G31800.1|PACid_19644902
+AT_AT4G01250.1|PACid:19645584 -> AT_AT4G01250.1|PACid_19645584
+AT_AT4G11070.1|PACid:19646382 -> AT_AT4G11070.1|PACid_19646382
+AT_AT4G26640.2|PACid:19646464 -> AT_AT4G26640.2|PACid_19646464
+AT_AT4G22070.1|PACid:19646691 -> AT_AT4G22070.1|PACid_19646691
+AT_AT4G04450.1|PACid:19647041 -> AT_AT4G04450.1|PACid_19647041
+AT_AT4G24240.1|PACid:19647169 -> AT_AT4G24240.1|PACid_19647169
+AT_AT4G31550.1|PACid:19647358 -> AT_AT4G31550.1|PACid_19647358
+AT_AT4G30935.1|PACid:19647487 -> AT_AT4G30935.1|PACid_19647487
+AT_AT4G18170.1|PACid:19647683 -> AT_AT4G18170.1|PACid_19647683
+AT_AT4G26440.1|PACid:19647770 -> AT_AT4G26440.1|PACid_19647770
+AT_AT4G23810.1|PACid:19648384 -> AT_AT4G23810.1|PACid_19648384
+AT_AT4G01720.1|PACid:19648609 -> AT_AT4G01720.1|PACid_19648609
+AT_AT4G23550.1|PACid:19648615 -> AT_AT4G23550.1|PACid_19648615
+AT_AT4G39410.1|PACid:19648649 -> AT_AT4G39410.1|PACid_19648649
+AT_AT1G69810.1|PACid:19649130 -> AT_AT1G69810.1|PACid_19649130
+AT_AT1G80840.1|PACid:19649422 -> AT_AT1G80840.1|PACid_19649422
+AT_AT1G29860.1|PACid:19650009 -> AT_AT1G29860.1|PACid_19650009
+AT_AT1G18860.1|PACid:19650959 -> AT_AT1G18860.1|PACid_19650959
+AT_AT1G66600.1|PACid:19652039 -> AT_AT1G66600.1|PACid_19652039
+AT_AT1G64000.1|PACid:19652244 -> AT_AT1G64000.1|PACid_19652244
+AT_AT1G13960.1|PACid:19652502 -> AT_AT1G13960.1|PACid_19652502
+AT_AT1G29280.1|PACid:19653020 -> AT_AT1G29280.1|PACid_19653020
+AT_AT1G55600.1|PACid:19653520 -> AT_AT1G55600.1|PACid_19653520
+AT_AT1G69310.1|PACid:19653724 -> AT_AT1G69310.1|PACid_19653724
+AT_AT1G62300.1|PACid:19654804 -> AT_AT1G62300.1|PACid_19654804
+AT_AT1G80590.1|PACid:19655764 -> AT_AT1G80590.1|PACid_19655764
+AT_AT1G30650.1|PACid:19655852 -> AT_AT1G30650.1|PACid_19655852
+AT_AT1G66560.1|PACid:19656825 -> AT_AT1G66560.1|PACid_19656825
+AT_AT1G68150.1|PACid:19658098 -> AT_AT1G68150.1|PACid_19658098
+AT_AT1G66550.1|PACid:19658266 -> AT_AT1G66550.1|PACid_19658266
+AT_AT3G01970.1|PACid:19658911 -> AT_AT3G01970.1|PACid_19658911
+AT_AT3G58710.1|PACid:19659214 -> AT_AT3G58710.1|PACid_19659214
+AT_AT3G01080.1|PACid:19659310 -> AT_AT3G01080.1|PACid_19659310
+AT_AT3G04670.1|PACid:19659974 -> AT_AT3G04670.1|PACid_19659974
+AT_AT3G62340.1|PACid:19663331 -> AT_AT3G62340.1|PACid_19663331
+AT_AT3G56400.1|PACid:19664734 -> AT_AT3G56400.1|PACid_19664734
+AT_AT5G49520.1|PACid:19665664 -> AT_AT5G49520.1|PACid_19665664
+AT_AT5G56270.1|PACid:19665783 -> AT_AT5G56270.1|PACid_19665783
+AT_AT5G41570.1|PACid:19666559 -> AT_AT5G41570.1|PACid_19666559
+AT_AT5G01900.1|PACid:19667034 -> AT_AT5G01900.1|PACid_19667034
+AT_AT5G52830.1|PACid:19667107 -> AT_AT5G52830.1|PACid_19667107
+AT_AT5G26170.1|PACid:19667187 -> AT_AT5G26170.1|PACid_19667187
+AT_AT5G46350.1|PACid:19667690 -> AT_AT5G46350.1|PACid_19667690
+AT_AT5G13080.1|PACid:19668284 -> AT_AT5G13080.1|PACid_19668284
+AT_AT5G22570.1|PACid:19668690 -> AT_AT5G22570.1|PACid_19668690
+AT_AT5G15130.1|PACid:19669511 -> AT_AT5G15130.1|PACid_19669511
+AT_AT5G64810.1|PACid:19670059 -> AT_AT5G64810.1|PACid_19670059
+AT_AT5G07100.1|PACid:19670115 -> AT_AT5G07100.1|PACid_19670115
+AT_AT5G45050.1|PACid:19670641 -> AT_AT5G45050.1|PACid_19670641
+AT_AT5G43290.1|PACid:19671697 -> AT_AT5G43290.1|PACid_19671697
+AT_AT5G28650.1|PACid:19671738 -> AT_AT5G28650.1|PACid_19671738
+AT_AT5G24110.1|PACid:19673033 -> AT_AT5G24110.1|PACid_19673033
+OS_LOC_Os08g38990.3|PACid:24098687 -> OS_LOC_Os08g38990.3|PACid_24098687
+OS_LOC_Os08g17400.1|PACid:24101198 -> OS_LOC_Os08g17400.1|PACid_24101198
+OS_LOC_Os04g50920.1|PACid:24103135 -> OS_LOC_Os04g50920.1|PACid_24103135
+OS_LOC_Os04g46060.1|PACid:24103214 -> OS_LOC_Os04g46060.1|PACid_24103214
+OS_LOC_Os04g21950.1|PACid:24106977 -> OS_LOC_Os04g21950.1|PACid_24106977
+OS_LOC_Os07g39480.1|PACid:24110549 -> OS_LOC_Os07g39480.1|PACid_24110549
+OS_LOC_Os07g02060.1|PACid:24112729 -> OS_LOC_Os07g02060.1|PACid_24112729
+OS_LOC_Os01g43650.1|PACid:24113784 -> OS_LOC_Os01g43650.1|PACid_24113784
+OS_LOC_Os01g47560.1|PACid:24114059 -> OS_LOC_Os01g47560.1|PACid_24114059
+OS_LOC_Os01g18584.1|PACid:24114432 -> OS_LOC_Os01g18584.1|PACid_24114432
+OS_LOC_Os01g53040.1|PACid:24116390 -> OS_LOC_Os01g53040.1|PACid_24116390
+OS_LOC_Os01g74140.1|PACid:24117010 -> OS_LOC_Os01g74140.1|PACid_24117010
+OS_LOC_Os01g46800.1|PACid:24118091 -> OS_LOC_Os01g46800.1|PACid_24118091
+OS_LOC_Os01g54600.1|PACid:24118401 -> OS_LOC_Os01g54600.1|PACid_24118401
+OS_LOC_Os01g14440.1|PACid:24118460 -> OS_LOC_Os01g14440.1|PACid_24118460
+OS_LOC_Os01g53260.1|PACid:24120034 -> OS_LOC_Os01g53260.1|PACid_24120034
+OS_LOC_Os01g08710.1|PACid:24120668 -> OS_LOC_Os01g08710.1|PACid_24120668
+OS_LOC_Os01g61080.1|PACid:24121503 -> OS_LOC_Os01g61080.1|PACid_24121503
+OS_LOC_Os03g49640.1|PACid:24122085 -> OS_LOC_Os03g49640.1|PACid_24122085
+OS_LOC_Os03g53050.1|PACid:24122325 -> OS_LOC_Os03g53050.1|PACid_24122325
+OS_LOC_Os03g55080.1|PACid:24125535 -> OS_LOC_Os03g55080.1|PACid_24125535
+OS_LOC_Os03g21710.1|PACid:24127298 -> OS_LOC_Os03g21710.1|PACid_24127298
+OS_LOC_Os02g08440.1|PACid:24129555 -> OS_LOC_Os02g08440.1|PACid_24129555
+OS_LOC_Os02g16540.1|PACid:24133330 -> OS_LOC_Os02g16540.1|PACid_24133330
+OS_LOC_Os02g53100.1|PACid:24134469 -> OS_LOC_Os02g53100.1|PACid_24134469
+OS_LOC_Os09g25060.1|PACid:24135826 -> OS_LOC_Os09g25060.1|PACid_24135826
+OS_LOC_Os09g16510.1|PACid:24137546 -> OS_LOC_Os09g16510.1|PACid_24137546
+OS_LOC_Os06g06360.1|PACid:24139321 -> OS_LOC_Os06g06360.1|PACid_24139321
+OS_LOC_Os06g44010.1|PACid:24141799 -> OS_LOC_Os06g44010.1|PACid_24141799
+OS_LOC_Os06g05380.1|PACid:24144138 -> OS_LOC_Os06g05380.1|PACid_24144138
+OS_LOC_Os12g40570.1|PACid:24148383 -> OS_LOC_Os12g40570.1|PACid_24148383
+OS_LOC_Os12g32250.1|PACid:24148907 -> OS_LOC_Os12g32250.1|PACid_24148907
+OS_LOC_Os05g25770.1|PACid:24150103 -> OS_LOC_Os05g25770.1|PACid_24150103
+OS_LOC_Os05g09020.1|PACid:24150747 -> OS_LOC_Os05g09020.1|PACid_24150747
+OS_LOC_Os05g49210.1|PACid:24150977 -> OS_LOC_Os05g49210.1|PACid_24150977
+OS_LOC_Os05g27730.1|PACid:24151842 -> OS_LOC_Os05g27730.1|PACid_24151842
+OS_LOC_Os05g46020.1|PACid:24152641 -> OS_LOC_Os05g46020.1|PACid_24152641
+OS_LOC_Os05g40060.1|PACid:24153219 -> OS_LOC_Os05g40060.1|PACid_24153219
+OS_LOC_Os11g29870.1|PACid:24159287 -> OS_LOC_Os11g29870.1|PACid_24159287
+
+                                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000176907 secs using 410.4% CPU
+   1  AT_AT2G37260.1|PACid_19638141        88.50%    failed      0.01%
+   2  AT_AT2G40750.1|PACid_19638309        90.72%    failed      3.00%
+   3  AT_AT2G44745.1|PACid_19638720        94.15%    failed      0.78%
+   4  AT_AT2G03340.1|PACid_19638813        86.24%    failed      0.00%
+   5  AT_AT2G47260.1|PACid_19638986        90.96%    failed      0.56%
+   6  AT_AT2G25000.1|PACid_19639530        92.73%    failed      2.60%
+   7  AT_AT2G46130.1|PACid_19639763        97.08%    passed     52.05%
+   8  AT_AT2G34830.1|PACid_19639979        88.55%    failed      0.00%
+   9  AT_AT2G38470.1|PACid_19640205        86.08%    failed      0.00%
+  10  AT_AT2G30590.1|PACid_19640610        89.81%    failed      0.00%
+  11  AT_AT2G24570.1|PACid_19640773        91.39%    failed      0.04%
+  12  AT_AT2G46400.1|PACid_19641583        92.09%    failed      0.01%
+  13  AT_AT2G30250.1|PACid_19641915        89.46%    failed      0.63%
+  14  AT_AT2G40740.1|PACid_19642333        92.17%    passed     25.95%
+  15  AT_AT2G04880.1|PACid_19642396        86.94%    failed      0.00%
+  16  AT_AT2G23320.1|PACid_19643488        91.50%    failed      0.00%
+  17  AT_AT2G21900.1|PACid_19643565        94.58%    failed      0.10%
+  18  AT_AT4G12020.2|PACid_19644332        49.18%    failed      0.00%
+  19  AT_AT4G31800.1|PACid_19644902        91.69%    failed      0.69%
+  20  AT_AT4G01250.1|PACid_19645584        92.01%    failed      0.31%
+  21  AT_AT4G11070.1|PACid_19646382        91.61%    failed      2.01%
+  22  AT_AT4G26640.2|PACid_19646464        85.06%    failed      0.00%
+  23  AT_AT4G22070.1|PACid_19646691        85.57%    failed      0.00%
+  24  AT_AT4G04450.1|PACid_19647041        85.84%    failed      0.00%
+  25  AT_AT4G24240.1|PACid_19647169        90.53%    failed      2.27%
+  26  AT_AT4G31550.1|PACid_19647358        91.28%    passed      9.20%
+  27  AT_AT4G30935.1|PACid_19647487        87.50%    failed      0.00%
+  28  AT_AT4G18170.1|PACid_19647683        91.47%    failed      3.21%
+  29  AT_AT4G26440.1|PACid_19647770        84.77%    failed      0.13%
+  30  AT_AT4G23810.1|PACid_19648384        91.31%    passed     10.07%
+  31  AT_AT4G01720.1|PACid_19648609        86.89%    failed      0.03%
+  32  AT_AT4G23550.1|PACid_19648615        91.85%    failed      0.28%
+  33  AT_AT4G39410.1|PACid_19648649        91.85%    failed      0.00%
+  34  AT_AT1G69810.1|PACid_19649130        89.62%    failed      0.15%
+  35  AT_AT1G80840.1|PACid_19649422        91.90%    failed      0.15%
+  36  AT_AT1G29860.1|PACid_19650009        92.44%    failed      0.12%
+  37  AT_AT1G18860.1|PACid_19650959        87.13%    failed      0.00%
+  38  AT_AT1G66600.1|PACid_19652039        93.54%    passed     85.73%
+  39  AT_AT1G64000.1|PACid_19652244        94.77%    passed     16.24%
+  40  AT_AT1G13960.1|PACid_19652502        86.22%    failed      0.00%
+  41  AT_AT1G29280.1|PACid_19653020        93.05%    failed      0.04%
+  42  AT_AT1G55600.1|PACid_19653520        86.99%    failed      0.00%
+  43  AT_AT1G69310.1|PACid_19653724        92.30%    failed      0.05%
+  44  AT_AT1G62300.1|PACid_19654804        85.17%    failed      0.00%
+  45  AT_AT1G80590.1|PACid_19655764        93.70%    passed     86.10%
+  46  AT_AT1G30650.1|PACid_19655852        88.47%    failed      0.00%
+  47  AT_AT1G66560.1|PACid_19656825        93.32%    passed     39.21%
+  48  AT_AT1G68150.1|PACid_19658098        89.97%    failed      0.04%
+  49  AT_AT1G66550.1|PACid_19658266        93.19%    passed     82.16%
+  50  AT_AT3G01970.1|PACid_19658911        96.06%    passed     32.51%
+  51  AT_AT3G58710.1|PACid_19659214        92.71%    failed      0.02%
+  52  AT_AT3G01080.1|PACid_19659310        88.66%    failed      0.06%
+  53  AT_AT3G04670.1|PACid_19659974        91.15%    failed      1.14%
+  54  AT_AT3G62340.1|PACid_19663331        92.57%    failed      3.21%
+  55  AT_AT3G56400.1|PACid_19664734        92.12%    failed      3.66%
+  56  AT_AT5G49520.1|PACid_19665664        89.30%    failed      0.00%
+  57  AT_AT5G56270.1|PACid_19665783        81.58%    failed      0.00%
+  58  AT_AT5G41570.1|PACid_19666559        95.20%    passed     43.36%
+  59  AT_AT5G01900.1|PACid_19667034        92.95%    failed      1.63%
+  60  AT_AT5G52830.1|PACid_19667107        90.67%    failed      0.00%
+  61  AT_AT5G26170.1|PACid_19667187        95.36%    failed      3.75%
+  62  AT_AT5G46350.1|PACid_19667690        91.26%    failed      0.24%
+  63  AT_AT5G13080.1|PACid_19668284        96.11%    failed      3.63%
+  64  AT_AT5G22570.1|PACid_19668690        92.25%    failed      0.01%
+  65  AT_AT5G15130.1|PACid_19669511        85.30%    failed      0.00%
+  66  AT_AT5G64810.1|PACid_19670059        94.80%    failed      0.15%
+  67  AT_AT5G07100.1|PACid_19670115        91.71%    failed      0.30%
+  68  AT_AT5G45050.1|PACid_19670641        63.21%    failed      0.00%
+  69  AT_AT5G43290.1|PACid_19671697        92.65%    passed     24.96%
+  70  AT_AT5G28650.1|PACid_19671738        91.15%    failed      0.02%
+  71  AT_AT5G24110.1|PACid_19673033        91.87%    passed      5.56%
+  72  OS_LOC_Os08g38990.3|PACid_24098687   81.93%    failed      0.15%
+  73  OS_LOC_Os08g17400.1|PACid_24101198   85.25%    failed      0.00%
+  74  OS_LOC_Os04g50920.1|PACid_24103135   86.22%    failed      0.00%
+  75  OS_LOC_Os04g46060.1|PACid_24103214   93.30%    failed      0.13%
+  76  OS_LOC_Os04g21950.1|PACid_24106977   91.26%    failed      0.00%
+  77  OS_LOC_Os07g39480.1|PACid_24110549   83.43%    failed      0.00%
+  78  OS_LOC_Os07g02060.1|PACid_24112729   92.22%    failed      0.00%
+  79  OS_LOC_Os01g43650.1|PACid_24113784   89.84%    failed      0.00%
+  80  OS_LOC_Os01g47560.1|PACid_24114059   84.45%    failed      0.00%
+  81  OS_LOC_Os01g18584.1|PACid_24114432   83.83%    failed      0.00%
+  82  OS_LOC_Os01g53040.1|PACid_24116390   91.45%    failed      0.00%
+  83  OS_LOC_Os01g74140.1|PACid_24117010   89.01%    failed      3.31%
+  84  OS_LOC_Os01g46800.1|PACid_24118091   92.65%    failed      0.00%
+  85  OS_LOC_Os01g54600.1|PACid_24118401   91.53%    failed      0.00%
+  86  OS_LOC_Os01g14440.1|PACid_24118460   84.37%    failed      0.00%
+  87  OS_LOC_Os01g53260.1|PACid_24120034   93.19%    failed      0.23%
+  88  OS_LOC_Os01g08710.1|PACid_24120668   88.63%    failed      0.02%
+  89  OS_LOC_Os01g61080.1|PACid_24121503   85.12%    failed      0.00%
+  90  OS_LOC_Os03g49640.1|PACid_24122085   82.46%    failed      0.00%
+  91  OS_LOC_Os03g53050.1|PACid_24122325   89.62%    failed      0.05%
+  92  OS_LOC_Os03g55080.1|PACid_24125535   91.58%    failed      0.00%
+  93  OS_LOC_Os03g21710.1|PACid_24127298   90.45%    failed      0.00%
+  94  OS_LOC_Os02g08440.1|PACid_24129555   90.67%    failed      0.00%
+  95  OS_LOC_Os02g16540.1|PACid_24133330   90.32%    failed      0.00%
+  96  OS_LOC_Os02g53100.1|PACid_24134469   83.80%    failed      0.00%
+  97  OS_LOC_Os09g25060.1|PACid_24135826   91.23%    failed      0.00%
+  98  OS_LOC_Os09g16510.1|PACid_24137546   90.32%    failed      0.00%
+  99  OS_LOC_Os06g06360.1|PACid_24139321   89.51%    failed      0.00%
+ 100  OS_LOC_Os06g44010.1|PACid_24141799   89.38%    failed      0.00%
+ 101  OS_LOC_Os06g05380.1|PACid_24144138   85.87%    failed      0.00%
+ 102  OS_LOC_Os12g40570.1|PACid_24148383   90.21%    failed      0.00%
+ 103  OS_LOC_Os12g32250.1|PACid_24148907   85.52%    failed      0.00%
+ 104  OS_LOC_Os05g25770.1|PACid_24150103   91.26%    failed      0.00%
+ 105  OS_LOC_Os05g09020.1|PACid_24150747   94.80%    failed      0.02%
+ 106  OS_LOC_Os05g49210.1|PACid_24150977   83.24%    failed      0.00%
+ 107  OS_LOC_Os05g27730.1|PACid_24151842   86.94%    failed      0.00%
+ 108  OS_LOC_Os05g46020.1|PACid_24152641   94.07%    failed      0.00%
+ 109  OS_LOC_Os05g40060.1|PACid_24153219   91.12%    failed      0.00%
+ 110  OS_LOC_Os11g29870.1|PACid_24159287   93.51%    failed      0.03%
+ 111  SL_tr|A0A3Q7EL47|A0A3Q7EL47_SOLLC    91.39%    passed     22.67%
+ 112  SL_tr|A0A3Q7GE34|A0A3Q7GE34_SOLLC    95.39%    passed     15.21%
+ 113  SL_tr|A0A3Q7GA72|A0A3Q7GA72_SOLLC    90.59%    failed      0.44%
+ 114  SL_tr|K4D3M4|K4D3M4_SOLLC            88.68%    failed      0.00%
+ 115  SL_tr|I3NN77|I3NN77_SOLLC            92.20%    failed      0.34%
+ 116  SL_tr|A0A3Q7HZG6|A0A3Q7HZG6_SOLLC    83.27%    failed      0.13%
+ 117  SL_tr|A0A3Q7F4R1|A0A3Q7F4R1_SOLLC    91.74%    failed      0.00%
+ 118  SL_tr|A0A3Q7GET7|A0A3Q7GET7_SOLLC    86.38%    failed      0.00%
+ 119  SL_tr|A0A3Q7I9U9|A0A3Q7I9U9_SOLLC    57.60%    failed      0.00%
+ 120  SL_tr|A0A3Q7H007|A0A3Q7H007_SOLLC    90.35%    failed      0.01%
+ 121  SL_sp|A0A3Q7GFB5|WK72A_SOLLC         85.89%    failed      0.00%
+ 122  SL_tr|A0A3Q7J0C9|A0A3Q7J0C9_SOLLC    91.12%    failed      0.89%
+ 123  SL_tr|A0A3Q7J5W6|A0A3Q7J5W6_SOLLC    83.61%    failed      0.00%
+ 124  SL_tr|A0A3Q7HJN8|A0A3Q7HJN8_SOLLC    91.20%    failed      1.78%
+ 125  SL_tr|A0A3Q7IQH1|A0A3Q7IQH1_SOLLC    91.79%    failed      0.15%
+ 126  SL_tr|A0A3Q7EHD6|A0A3Q7EHD6_SOLLC    91.42%    passed     13.13%
+ 127  SL_tr|A0A3Q7FAR1|A0A3Q7FAR1_SOLLC    87.26%    failed      0.00%
+ 128  SL_tr|A0A3Q7GHS3|A0A3Q7GHS3_SOLLC    90.61%    failed      0.00%
+ 129  SL_tr|A0A3Q7HL08|A0A3Q7HL08_SOLLC    90.35%    failed      3.09%
+ 130  SL_tr|A0A3Q7I011|A0A3Q7I011_SOLLC    71.84%    failed      0.00%
+ 131  SL_tr|A0A3Q7GFS3|A0A3Q7GFS3_SOLLC    91.23%    failed      0.02%
+ 132  SL_tr|A0A3Q7G4B3|A0A3Q7G4B3_SOLLC    93.72%    passed     30.72%
+ 133  SL_tr|A0A3Q7HU30|A0A3Q7HU30_SOLLC    93.81%    failed      1.91%
+ 134  SL_tr|A0A3Q7GN72|A0A3Q7GN72_SOLLC    91.77%    passed     18.64%
+ 135  SL_tr|Q9ARC7|Q9ARC7_SOLLC            80.18%    failed      0.00%
+ 136  SL_tr|A0A3Q7FI33|A0A3Q7FI33_SOLLC    86.48%    failed      0.01%
+ 137  SL_tr|A0A3Q7HMU0|A0A3Q7HMU0_SOLLC    90.72%    passed      5.50%
+ 138  SL_sp|K4BIZ9|WRK70_SOLLC             92.68%    passed      6.99%
+ 139  SL_tr|A0A3Q7FC81|A0A3Q7FC81_SOLLC    96.49%    passed      9.24%
+ 140  SL_tr|A0A3Q7EWG2|A0A3Q7EWG2_SOLLC    89.78%    failed      0.84%
+ 141  SL_tr|A0A3Q7HPW5|A0A3Q7HPW5_SOLLC    95.41%    passed     16.08%
+ 142  SL_tr|A0A3Q7FZK0|A0A3Q7FZK0_SOLLC    91.26%    failed      0.07%
+ 143  SL_tr|A0A3Q7G6E6|A0A3Q7G6E6_SOLLC    69.05%    failed      0.00%
+ 144  SL_tr|A0A3Q7FDQ3|A0A3Q7FDQ3_SOLLC    90.53%    failed      0.00%
+ 145  SL_tr|A0A3Q7HUS3|A0A3Q7HUS3_SOLLC    89.78%    failed      0.09%
+ 146  SL_tr|K4BWN7|K4BWN7_SOLLC            89.49%    failed      0.00%
+ 147  SL_tr|A0A3Q7F586|A0A3Q7F586_SOLLC    85.25%    failed      0.00%
+ 148  SL_tr|A0A3Q7FNU4|A0A3Q7FNU4_SOLLC    95.74%    failed      1.29%
+ 149  SL_tr|A0A3Q7HSP9|A0A3Q7HSP9_SOLLC    85.41%    failed      0.00%
+ 150  SL_tr|A0A3Q7JEK4|A0A3Q7JEK4_SOLLC    90.94%    failed      0.98%
+WARNING: 149 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                89.12%  128 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.000441074 secs using 134.7% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.058 seconds
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 12.300 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -144766
+Threads: 2 / Time: 8.224 sec / Speedup: 1.496 / Efficiency: 75% / LogL: -144766
+Threads: 3 / Time: 6.091 sec / Speedup: 2.019 / Efficiency: 67% / LogL: -144766
+Threads: 4 / Time: 5.165 sec / Speedup: 2.381 / Efficiency: 60% / LogL: -144766
+Threads: 5 / Time: 5.017 sec / Speedup: 2.452 / Efficiency: 49% / LogL: -144766
+Determining AUTO threadcount: done in 36.8127 secs using 196.2% CPU
+BEST NUMBER OF THREADS: 4
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 2.84148 secs using 301.1% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -123996.524
+2. Current log-likelihood: -123994.486
+3. Current log-likelihood: -123993.480
+Optimal log-likelihood: -123992.975
+Proportion of invariable sites: 0.002
+Gamma shape alpha: 1.165
+Parameters optimization took 3 rounds (1.673 sec)
+Time for fast ML tree search: 9.893 seconds
+
+NOTE: ModelFinder requires 261 MB RAM!
+ModelFinder will test up to 224 protein models (sample size: 3729 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            126955.254   297 254504.508   254556.100   256353.005
+  2  LG+I          126832.783   298 254261.566   254313.520   256116.287
+  3  LG+G4         124011.492   298 248618.984   248670.938   250473.705
+  4  LG+I+G4       123992.637   299 248583.274   248635.593   250444.219
+  8  LG+F+I+G4     124017.275   318 248670.551   248730.048   250649.750
+ 12  WAG+I+G4      123743.862   299 248085.723   248138.042   249946.668
+ 16  WAG+F+I+G4    123832.561   318 248301.122   248360.619   250280.321
+ 20  JTT+I+G4      123478.086   299 247554.172   247606.490   249415.116
+ 24  JTT+F+I+G4    123617.957   318 247871.913   247931.410   249851.112
+ 28  Q.PFAM+I+G4   123741.341   299 248080.682   248133.000   249941.626
+ 32  Q.PFAM+F+I+G4 123903.193   318 248442.386   248501.883   250421.585
+ 36  Q.BIRD+I+G4   124608.891   299 249815.782   249868.101   251676.727
+ 40  Q.BIRD+F+I+G4 125044.892   318 250725.785   250785.282   252704.984
+ 44  Q.MAMMAL+I+G4 124012.614   299 248623.229   248675.547   250484.173
+ 48  Q.MAMMAL+F+I+G4 124439.757   318 249515.514   249575.011   251494.713
+ 52  Q.INSECT+I+G4 123683.890   299 247965.779   248018.098   249826.724
+ 56  Q.INSECT+F+I+G4 123721.587   318 248079.174   248138.671   250058.373
+ 60  Q.PLANT+I+G4  123995.504   299 248589.009   248641.327   250449.954
+ 64  Q.PLANT+F+I+G4 124362.841   318 249361.682   249421.178   251340.880
+ 68  Q.YEAST+I+G4  123966.217   299 248530.433   248582.752   250391.378
+ 72  Q.YEAST+F+I+G4 123841.069   318 248318.139   248377.635   250297.337
+ 76  JTTDCMUT+I+G4 123497.761   299 247593.523   247645.841   249454.467
+ 80  JTTDCMUT+F+I+G4 123616.752   318 247869.503   247929.000   249848.702
+ 84  DCMUT+I+G4    124373.585   299 249345.170   249397.489   251206.115
+ 88  DCMUT+F+I+G4  123948.037   318 248532.074   248591.571   250511.273
+ 92  VT+I+G4       123438.772   299 247475.544   247527.862   249336.489
+ 96  VT+F+I+G4     123679.072   318 247994.144   248053.641   249973.343
+100  PMB+I+G4      124214.349   299 249026.697   249079.016   250887.642
+104  PMB+F+I+G4    124116.309   318 248868.618   248928.115   250847.817
+108  BLOSUM62+I+G4 124472.159   299 249542.318   249594.636   251403.263
+112  BLOSUM62+F+I+G4 124254.679   318 249145.357   249204.854   251124.556
+116  DAYHOFF+I+G4  124379.286   299 249356.572   249408.890   251217.516
+120  DAYHOFF+F+I+G4 123954.501   318 248545.002   248604.499   250524.201
+124  MTREV+I+G4    129489.283   299 259576.565   259628.884   261437.510
+128  MTREV+F+I+G4  125361.344   318 251358.688   251418.185   253337.887
+132  MTART+I+G4    130552.165   299 261702.329   261754.648   263563.274
+136  MTART+F+I+G4  126427.406   318 253490.813   253550.309   255470.011
+140  MTZOA+I+G4    128312.968   299 257223.936   257276.254   259084.880
+144  MTZOA+F+I+G4  125369.929   318 251375.857   251435.354   253355.056
+148  MTMET+I+G4    129273.514   299 259145.028   259197.346   261005.972
+152  MTMET+F+I+G4  124916.713   318 250469.426   250528.923   252448.625
+156  MTVER+I+G4    130049.590   299 260697.179   260749.498   262558.124
+160  MTVER+F+I+G4  125989.827   318 252615.654   252675.151   254594.853
+164  MTINV+I+G4    130138.040   299 260874.079   260926.398   262735.024
+168  MTINV+F+I+G4  124488.655   318 249613.311   249672.807   251592.509
+172  MTMAM+I+G4    131648.556   299 263895.112   263947.431   265756.057
+176  MTMAM+F+I+G4  126901.611   318 254439.221   254498.718   256418.420
+180  FLAVI+I+G4    127165.612   299 254929.224   254981.542   256790.169
+184  FLAVI+F+I+G4  126196.134   318 253028.269   253087.766   255007.468
+188  HIVB+I+G4     126190.380   299 252978.759   253031.078   254839.704
+192  HIVB+F+I+G4   125253.977   318 251143.954   251203.451   253123.152
+196  HIVW+I+G4     129787.315   299 260172.629   260224.947   262033.574
+200  HIVW+F+I+G4   126760.830   318 254157.659   254217.156   256136.858
+204  FLU+I+G4      125468.477   299 251534.954   251587.273   253395.899
+208  FLU+F+I+G4    124568.956   318 249773.913   249833.409   251753.111
+212  RTREV+I+G4    125130.049   299 250858.099   250910.417   252719.043
+216  RTREV+F+I+G4  124273.411   318 249182.823   249242.320   251162.022
+220  CPREV+I+G4    124791.042   299 250180.085   250232.403   252041.030
+224  CPREV+F+I+G4  124571.053   318 249778.106   249837.603   251757.305
+Akaike Information Criterion:           VT+I+G4
+Corrected Akaike Information Criterion: VT+I+G4
+Bayesian Information Criterion:         VT+I+G4
+Best-fit model: VT+I+G4 chosen according to BIC
+
+All model information printed to /Users/scorrea/Documents/proteomics_AT/05_iqtree/WRKY_3spp.model.gz
+CPU time for ModelFinder: 796.595 seconds (0h:13m:16s)
+Wall-clock time for ModelFinder: 270.693 seconds (0h:4m:30s)
+Generating 1000 samples for ultrafast bootstrap (seed: 692176)...
+
+NOTE: 261 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.083 / Estimate: 0.001, 1.362 / LogL: -123438.782
+Init pinv, alpha: 0.041, 1.083 / Estimate: 0.002, 1.371 / LogL: -123438.779
+Init pinv, alpha: 0.081, 1.083 / Estimate: 0.002, 1.373 / LogL: -123438.777
+Init pinv, alpha: 0.122, 1.083 / Estimate: 0.002, 1.373 / LogL: -123438.756
+Init pinv, alpha: 0.162, 1.083 / Estimate: 0.002, 1.375 / LogL: -123438.770
+Init pinv, alpha: 0.203, 1.083 / Estimate: 0.002, 1.373 / LogL: -123438.785
+Init pinv, alpha: 0.243, 1.083 / Estimate: 0.002, 1.374 / LogL: -123438.749
+Init pinv, alpha: 0.284, 1.083 / Estimate: 0.002, 1.373 / LogL: -123438.755
+Init pinv, alpha: 0.325, 1.083 / Estimate: 0.002, 1.373 / LogL: -123438.761
+Init pinv, alpha: 0.365, 1.083 / Estimate: 0.002, 1.375 / LogL: -123438.764
+Optimal pinv,alpha: 0.002, 1.374 / LogL: -123438.749
+
+Parameters optimization took 99.260 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.05523 secs using 387.6% CPU
+Computing ML distances took 1.055761 sec (of wall-clock time) 4.091350 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000204802 secs using 332% CPU
+Constructing RapidNJ tree: done in 0.00826383 secs using 96.78% CPU
+Computing RapidNJ tree took 0.008514 sec (of wall-clock time) 0.008695 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -124102.729
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 6.325 second
+Computing log-likelihood of 98 initial trees ... 27.299 seconds
+Current best score: -123438.749
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 1.56668 secs using 298.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -123434.814
+Optimizing NNI: done in 7.27628 secs using 298.8% CPU
+Optimizing NNI: done in 5.21253 secs using 300.4% CPU
+Optimizing NNI: done in 5.93659 secs using 300.5% CPU
+Optimizing NNI: done in 5.54451 secs using 300.2% CPU
+Optimizing NNI: done in 5.36532 secs using 297.4% CPU
+Optimizing NNI: done in 6.16239 secs using 298.4% CPU
+Optimizing NNI: done in 5.55636 secs using 300% CPU
+Optimizing NNI: done in 5.74483 secs using 300.6% CPU
+Optimizing NNI: done in 6.20242 secs using 296.8% CPU
+Iteration 10 / LogL: -123439.686 / Time: 0h:7m:43s
+Optimizing NNI: done in 5.48621 secs using 300% CPU
+Optimizing NNI: done in 5.76873 secs using 300.4% CPU
+Optimizing NNI: done in 5.56846 secs using 300.3% CPU
+Optimizing NNI: done in 6.42691 secs using 299.1% CPU
+Optimizing NNI: done in 5.46533 secs using 297.7% CPU
+Optimizing NNI: done in 5.2361 secs using 300.1% CPU
+Optimizing NNI: done in 6.41678 secs using 300.4% CPU
+Optimizing NNI: done in 5.19024 secs using 299.8% CPU
+Optimizing NNI: done in 6.02847 secs using 297.3% CPU
+Optimizing NNI: done in 5.97413 secs using 301.1% CPU
+Iteration 20 / LogL: -123457.778 / Time: 0h:8m:41s
+Finish initializing candidate tree set (20)
+Current best tree score: -123434.814 / CPU time: 148.193
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 5.0251 secs using 301.4% CPU
+BETTER TREE FOUND at iteration 21: -123434.807
+Optimizing NNI: done in 4.86079 secs using 300.3% CPU
+Optimizing NNI: done in 4.53741 secs using 300.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -123433.889
+Optimizing NNI: done in 5.30424 secs using 301.3% CPU
+Optimizing NNI: done in 4.75125 secs using 301.1% CPU
+Optimizing NNI: done in 4.62695 secs using 300.8% CPU
+Optimizing NNI: done in 5.34924 secs using 301.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -123433.406
+Optimizing NNI: done in 5.65328 secs using 301.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -123433.227
+Optimizing NNI: done in 4.9161 secs using 301.6% CPU
+Optimizing NNI: done in 4.40613 secs using 301.6% CPU
+Iteration 30 / LogL: -123434.380 / Time: 0h:9m:35s (0h:17m:9s left)
+Optimizing NNI: done in 4.37406 secs using 300% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -123433.169
+Optimizing NNI: done in 5.14669 secs using 301.3% CPU
+Optimizing NNI: done in 5.30874 secs using 301.4% CPU
+Optimizing NNI: done in 4.64361 secs using 299.9% CPU
+Optimizing NNI: done in 4.56238 secs using 301.2% CPU
+Optimizing NNI: done in 6.26237 secs using 298.3% CPU
+Optimizing NNI: done in 5.14801 secs using 301% CPU
+Optimizing NNI: done in 4.67383 secs using 300.9% CPU
+Optimizing NNI: done in 4.56599 secs using 300.9% CPU
+Optimizing NNI: done in 4.93618 secs using 301.5% CPU
+Iteration 40 / LogL: -123438.197 / Time: 0h:10m:26s (0h:13m:49s left)
+Optimizing NNI: done in 4.78762 secs using 298.6% CPU
+Optimizing NNI: done in 5.566 secs using 300.9% CPU
+Optimizing NNI: done in 4.26169 secs using 301.7% CPU
+Optimizing NNI: done in 4.67077 secs using 302% CPU
+Optimizing NNI: done in 5.29616 secs using 301.2% CPU
+Optimizing NNI: done in 5.51632 secs using 295.9% CPU
+Optimizing NNI: done in 4.31918 secs using 301.3% CPU
+Optimizing NNI: done in 6.27237 secs using 301.7% CPU
+Optimizing NNI: done in 4.8865 secs using 300.8% CPU
+Optimizing NNI: done in 5.59696 secs using 289.5% CPU
+Iteration 50 / LogL: -123434.005 / Time: 0h:11m:17s (0h:11m:13s left)
+Log-likelihood cutoff on original alignment: -123508.966
+Optimizing NNI: done in 4.92185 secs using 290.4% CPU
+Optimizing NNI: done in 6.44835 secs using 300.3% CPU
+Optimizing NNI: done in 6.10808 secs using 298.9% CPU
+Optimizing NNI: done in 5.14291 secs using 298.2% CPU
+Optimizing NNI: done in 6.173 secs using 296.8% CPU
+Optimizing NNI: done in 5.14466 secs using 300.3% CPU
+Optimizing NNI: done in 5.06298 secs using 299.9% CPU
+Optimizing NNI: done in 5.23086 secs using 300.2% CPU
+Optimizing NNI: done in 6.5244 secs using 299.5% CPU
+Optimizing NNI: done in 5.64819 secs using 301% CPU
+Iteration 60 / LogL: -123433.211 / Time: 0h:12m:15s (0h:9m:18s left)
+Optimizing NNI: done in 6.21722 secs using 298.7% CPU
+Optimizing NNI: done in 5.83227 secs using 300.1% CPU
+Optimizing NNI: done in 4.75658 secs using 296.9% CPU
+Optimizing NNI: done in 6.41652 secs using 299.4% CPU
+Optimizing NNI: done in 4.3506 secs using 299.9% CPU
+Optimizing NNI: done in 4.59174 secs using 298.7% CPU
+Optimizing NNI: done in 5.58085 secs using 299.1% CPU
+Optimizing NNI: done in 5.59911 secs using 294.3% CPU
+Optimizing NNI: done in 5.51426 secs using 296.7% CPU
+Optimizing NNI: done in 4.55487 secs using 296.3% CPU
+Iteration 70 / LogL: -123433.926 / Time: 0h:13m:9s (0h:7m:38s left)
+Optimizing NNI: done in 5.22254 secs using 297.6% CPU
+Optimizing NNI: done in 4.57695 secs using 299.7% CPU
+Optimizing NNI: done in 4.84222 secs using 296.5% CPU
+Optimizing NNI: done in 5.27342 secs using 300.4% CPU
+Optimizing NNI: done in 5.15957 secs using 298.8% CPU
+Optimizing NNI: done in 6.18582 secs using 301.3% CPU
+Optimizing NNI: done in 5.46234 secs using 301.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 77: -123432.880
+Optimizing NNI: done in 6.24819 secs using 300.7% CPU
+Optimizing NNI: done in 4.81998 secs using 301.2% CPU
+Optimizing NNI: done in 5.64472 secs using 301.1% CPU
+Iteration 80 / LogL: -123435.385 / Time: 0h:14m:3s (0h:11m:43s left)
+Optimizing NNI: done in 4.71494 secs using 301.1% CPU
+Optimizing NNI: done in 6.66403 secs using 299.7% CPU
+Optimizing NNI: done in 5.24495 secs using 301.1% CPU
+Optimizing NNI: done in 5.4619 secs using 301.1% CPU
+Optimizing NNI: done in 5.75073 secs using 301% CPU
+Optimizing NNI: done in 4.89487 secs using 298.4% CPU
+Optimizing NNI: done in 5.00773 secs using 301.1% CPU
+Optimizing NNI: done in 5.23487 secs using 301.3% CPU
+Optimizing NNI: done in 4.70264 secs using 300.7% CPU
+Optimizing NNI: done in 5.01615 secs using 301% CPU
+Iteration 90 / LogL: -123434.092 / Time: 0h:14m:57s (0h:10m:12s left)
+Optimizing NNI: done in 6.14768 secs using 286% CPU
+Optimizing NNI: done in 6.10567 secs using 301.1% CPU
+Optimizing NNI: done in 5.7977 secs using 300.9% CPU
+Optimizing NNI: done in 5.66566 secs using 300.9% CPU
+Optimizing NNI: done in 5.37996 secs using 299.4% CPU
+Optimizing NNI: done in 5.05574 secs using 301% CPU
+Optimizing NNI: done in 5.46941 secs using 301.4% CPU
+Optimizing NNI: done in 6.25234 secs using 301.7% CPU
+Optimizing NNI: done in 6.21904 secs using 300.1% CPU
+Optimizing NNI: done in 4.78992 secs using 300.6% CPU
+Iteration 100 / LogL: -123438.315 / Time: 0h:15m:54s (0h:8m:51s left)
+Log-likelihood cutoff on original alignment: -123508.966
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Optimizing NNI: done in 5.48682 secs using 297.7% CPU
+Optimizing NNI: done in 5.72478 secs using 294.5% CPU
+Optimizing NNI: done in 6.33481 secs using 294.1% CPU
+Optimizing NNI: done in 5.56301 secs using 298.2% CPU
+Optimizing NNI: done in 6.42468 secs using 296.3% CPU
+Optimizing NNI: done in 5.74983 secs using 294.9% CPU
+Optimizing NNI: done in 6.52772 secs using 295.9% CPU
+Optimizing NNI: done in 5.16496 secs using 299.4% CPU
+Optimizing NNI: done in 5.13501 secs using 300.6% CPU
+Optimizing NNI: done in 6.40104 secs using 288% CPU
+Iteration 110 / LogL: -123433.368 / Time: 0h:16m:53s (0h:10m:13s left)
+Optimizing NNI: done in 6.54862 secs using 297.7% CPU
+Optimizing NNI: done in 5.93714 secs using 297.7% CPU
+Optimizing NNI: done in 5.89549 secs using 299.7% CPU
+Optimizing NNI: done in 7.00327 secs using 296.3% CPU
+Optimizing NNI: done in 5.75956 secs using 294.7% CPU
+Optimizing NNI: done in 5.91824 secs using 299.3% CPU
+Optimizing NNI: done in 5.52394 secs using 285.4% CPU
+Optimizing NNI: done in 5.67505 secs using 296.6% CPU
+Optimizing NNI: done in 5.22295 secs using 298.5% CPU
+Optimizing NNI: done in 6.6072 secs using 289.8% CPU
+Iteration 120 / LogL: -123433.135 / Time: 0h:17m:54s (0h:9m:0s left)
+Optimizing NNI: done in 7.31009 secs using 293.6% CPU
+Optimizing NNI: done in 6.48905 secs using 280.7% CPU
+Optimizing NNI: done in 5.96776 secs using 297.7% CPU
+Optimizing NNI: done in 5.88758 secs using 297.6% CPU
+Optimizing NNI: done in 4.85846 secs using 300.7% CPU
+Optimizing NNI: done in 5.74469 secs using 299.9% CPU
+Optimizing NNI: done in 5.36193 secs using 300.2% CPU
+Optimizing NNI: done in 6.25401 secs using 297.8% CPU
+Optimizing NNI: done in 6.32944 secs using 298.4% CPU
+Optimizing NNI: done in 6.13112 secs using 294.9% CPU
+Iteration 130 / LogL: -123436.209 / Time: 0h:18m:55s (0h:7m:49s left)
+Optimizing NNI: done in 5.9621 secs using 298.9% CPU
+Optimizing NNI: done in 5.78223 secs using 301.9% CPU
+Optimizing NNI: done in 5.84705 secs using 299.5% CPU
+Optimizing NNI: done in 6.38654 secs using 301.2% CPU
+Optimizing NNI: done in 6.30631 secs using 301.7% CPU
+Optimizing NNI: done in 5.37318 secs using 298.3% CPU
+Optimizing NNI: done in 5.61798 secs using 298.6% CPU
+Optimizing NNI: done in 5.89596 secs using 300.5% CPU
+Optimizing NNI: done in 5.68722 secs using 298.8% CPU
+Optimizing NNI: done in 4.54721 secs using 299.9% CPU
+Iteration 140 / LogL: -123433.427 / Time: 0h:19m:53s (0h:6m:38s left)
+Optimizing NNI: done in 4.93764 secs using 300.6% CPU
+Optimizing NNI: done in 5.8408 secs using 296.2% CPU
+Optimizing NNI: done in 4.91687 secs using 300.9% CPU
+Optimizing NNI: done in 5.83179 secs using 300.7% CPU
+Optimizing NNI: done in 4.50318 secs using 298.3% CPU
+Optimizing NNI: done in 6.30531 secs using 300.2% CPU
+Optimizing NNI: done in 5.56418 secs using 301.3% CPU
+Optimizing NNI: done in 5.6811 secs using 300.8% CPU
+Optimizing NNI: done in 5.59782 secs using 301.5% CPU
+Optimizing NNI: done in 5.77374 secs using 301.1% CPU
+Iteration 150 / LogL: -123433.295 / Time: 0h:20m:49s (0h:5m:28s left)
+Log-likelihood cutoff on original alignment: -123508.966
+Optimizing NNI: done in 5.62397 secs using 297.6% CPU
+Optimizing NNI: done in 6.28463 secs using 297.8% CPU
+Optimizing NNI: done in 5.29989 secs using 301.2% CPU
+Optimizing NNI: done in 6.6315 secs using 301.3% CPU
+Optimizing NNI: done in 6.41272 secs using 297.6% CPU
+Optimizing NNI: done in 5.59044 secs using 300.8% CPU
+Optimizing NNI: done in 5.44978 secs using 301.1% CPU
+Optimizing NNI: done in 5.44039 secs using 300.8% CPU
+Optimizing NNI: done in 5.23339 secs using 300.8% CPU
+Optimizing NNI: done in 6.38682 secs using 298.7% CPU
+Iteration 160 / LogL: -123438.418 / Time: 0h:21m:48s (0h:4m:21s left)
+Optimizing NNI: done in 5.03615 secs using 300.6% CPU
+Optimizing NNI: done in 5.57644 secs using 301.2% CPU
+Optimizing NNI: done in 5.28513 secs using 292.5% CPU
+Optimizing NNI: done in 5.61486 secs using 296.7% CPU
+Optimizing NNI: done in 6.11294 secs using 296.7% CPU
+Optimizing NNI: done in 6.15584 secs using 295.3% CPU
+Optimizing NNI: done in 5.03785 secs using 300.8% CPU
+Optimizing NNI: done in 5.25927 secs using 295.4% CPU
+Optimizing NNI: done in 5.14733 secs using 301.8% CPU
+Optimizing NNI: done in 6.66656 secs using 288.9% CPU
+Iteration 170 / LogL: -123433.836 / Time: 0h:22m:44s (0h:3m:14s left)
+Optimizing NNI: done in 5.28043 secs using 301.3% CPU
+Optimizing NNI: done in 5.79615 secs using 292.3% CPU
+Optimizing NNI: done in 6.79513 secs using 296.1% CPU
+Optimizing NNI: done in 6.43501 secs using 280.8% CPU
+Optimizing NNI: done in 6.77411 secs using 292.5% CPU
+Optimizing NNI: done in 7.07467 secs using 297.5% CPU
+Optimizing NNI: done in 6.88089 secs using 296.2% CPU
+Optimizing NNI: done in 6.33656 secs using 294.3% CPU
+TREE SEARCH COMPLETED AFTER 178 ITERATIONS / Time: 0h:23m:36s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -123432.880
+Optimal log-likelihood: -123432.876
+Proportion of invariable sites: 0.001
+Gamma shape alpha: 1.359
+Parameters optimization took 1 rounds (1.038 sec)
+BEST SCORE FOUND : -123432.876
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/scorrea/Documents/proteomics_AT/05_iqtree/WRKY_3spp.splits.nex
+Total tree length: 118.826
+
+Total number of iterations: 178
+CPU time used for tree search: 3099.417 sec (0h:51m:39s)
+Wall-clock time used for tree search: 1043.045 sec (0h:17m:23s)
+Total CPU time used: 4221.232 sec (1h:10m:21s)
+Total wall-clock time used: 1418.003 sec (0h:23m:38s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/scorrea/Documents/proteomics_AT/05_iqtree/WRKY_3spp.splits.nex...
+150 taxa and 570 splits.
+Consensus tree written to /Users/scorrea/Documents/proteomics_AT/05_iqtree/WRKY_3spp.contree
+Reading input trees file /Users/scorrea/Documents/proteomics_AT/05_iqtree/WRKY_3spp.contree
+Log-likelihood of consensus tree: -123433.430
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/scorrea/Documents/proteomics_AT/05_iqtree/WRKY_3spp.iqtree
+  Maximum-likelihood tree:       /Users/scorrea/Documents/proteomics_AT/05_iqtree/WRKY_3spp.treefile
+  Likelihood distances:          /Users/scorrea/Documents/proteomics_AT/05_iqtree/WRKY_3spp.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/scorrea/Documents/proteomics_AT/05_iqtree/WRKY_3spp.splits.nex
+  Consensus tree:                /Users/scorrea/Documents/proteomics_AT/05_iqtree/WRKY_3spp.contree
+  Screen log file:               /Users/scorrea/Documents/proteomics_AT/05_iqtree/WRKY_3spp.log
+
+Date and Time: Thu Mar  5 23:09:31 2026
+
+Tree: /Users/scorrea/Documents/proteomics_AT/05_iqtree/WRKY_3spp.treefile
+scorrea@Sebastians-MacBook-Air proteomics_AT % cd /Users/scorrea/Documents/proteomics_AT
+python3 gen_itol_annotations.py
+IDs read: AT=71  OS=39  SL=40  total=150
+Written: /Users/scorrea/Documents/proteomics_AT/itol_colorstrip.txt
+Written: /Users/scorrea/Documents/proteomics_AT/itol_labels.txt
+scorrea@Sebastians-MacBook-Air proteomics_AT % python3 gen_itol_v2.py \
+  /Users/scorrea/Documents/proteomics_AT/04_alignment/all_WRKY.fa \
+  /Users/scorrea/Documents/proteomics_AT/itol_colorstrip_v2.txt
+Total IDs: 150
+scorrea@Sebastians-MacBook-Air proteomics_AT % 

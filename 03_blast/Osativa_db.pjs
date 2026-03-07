@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "Osativa_db",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/Users/scorrea/Documents/proteomics_AT/00_raw/Osativa_protein.fa",
+  "number-of-letters": 13850550,
+  "number-of-sequences": 39049,
+  "last-updated": "2026-03-05T22:45:00",
+  "number-of-volumes": 1,
+  "bytes-total": 23163390,
+  "bytes-to-cache": 14202144,
+  "files": [
+    "Osativa_db.pdb",
+    "Osativa_db.phr",
+    "Osativa_db.pin",
+    "Osativa_db.pog",
+    "Osativa_db.pos",
+    "Osativa_db.pot",
+    "Osativa_db.psq",
+    "Osativa_db.ptf",
+    "Osativa_db.pto"
+  ]
+}

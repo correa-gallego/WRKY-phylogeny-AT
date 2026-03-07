@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "Slycopersicum_db",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/Users/scorrea/Documents/proteomics_AT/00_raw/Slycopersicum_protein.fa",
+  "number-of-letters": 12263920,
+  "number-of-sequences": 34663,
+  "last-updated": "2026-03-05T22:45:00",
+  "number-of-volumes": 1,
+  "bytes-total": 20890791,
+  "bytes-to-cache": 12576048,
+  "files": [
+    "Slycopersicum_db.pdb",
+    "Slycopersicum_db.phr",
+    "Slycopersicum_db.pin",
+    "Slycopersicum_db.pog",
+    "Slycopersicum_db.pos",
+    "Slycopersicum_db.pot",
+    "Slycopersicum_db.psq",
+    "Slycopersicum_db.ptf",
+    "Slycopersicum_db.pto"
+  ]
+}
