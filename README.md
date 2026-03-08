@@ -1,5 +1,7 @@
 # Análisis filogenético comparativo de factores de transcripción WRKY
-**Sebastián Correa Gallego** · Ciencia de Datos en Ciencias de la Vida (BI0529) · Area de Sistemas Naturales y Sostenibilidad ·
+**Sebastián Correa Gallego** · Ciencia de Datos en Ciencias de la Vida (BI0529) · 
+Area de Sistemas Naturales y Sostenibilidad ·
+
 Análisis filogenético de ML de la superfamilia WRKY en *Arabidopsis thaliana* (71), *Oryza sativa* (39) y *Solanum lycopersicum* (40) — 150 secuencias en total.
 
 ---
