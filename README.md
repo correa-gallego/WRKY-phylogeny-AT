@@ -3,15 +3,12 @@
 
 Análisis filogenético de ML de la superfamilia WRKY en *Arabidopsis thaliana* (71), *Oryza sativa* (39) y *Solanum lycopersicum* (40) — 150 secuencias en total.
 
-## Licencia
-MIT License ver [`LICENSE`](./LICENSE)
 ---
 
 ## Notebook
 
-[`WRKY_Phylogeny_Reporte_Final.ipynb`](./WRKY_Phylogeny_Reporte_Final.ipynb) — reporte completo con métodos, resultados, figuras y discusión.
+[`WRKY_Phylogeny_Reporte_Final.ipynb`](./WRKY_Phylogeny_Reporte_Final.ipynb)
 
-> GitHub renderiza el notebook directamente al hacer clic en el archivo.
 
 ---
 
@@ -55,7 +52,7 @@ Proteomas → seqtk (71 AtWRKY) → BLAST (39 Os + 40 Sl) → megafasta (150 seq
 | Nodos UFBoot ≥ 80 | 74.3% |
 | Tiempo de cómputo | 23 min 38 s (MacBook Air M4) |
 
-**Hipótesis confirmadas:** monofilia de Group I/III (H1 ✓), co-segregación de ortólogos (H2 ✓), polifiletismo de Group II (H3 ✓).
+**Hipótesis confirmadas:** monofilia de Group I/III (H1), co-segregación de ortólogos (H2), polifiletismo de Group II (H3).
 
 ---
 
